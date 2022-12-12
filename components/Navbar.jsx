@@ -33,7 +33,7 @@ function Navbar () {
                                 width={40}
                                 />
                                 <h1 className=" font-bold text-sm cursor-pointer ml-1">
-										<span className="text-blue-500">E&M</span>
+										<span className="text-orange-400">E&M</span>
 									</h1>
                                 </div> 
                                 
@@ -49,7 +49,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer hover:text-orange-400 text-black  px-3 py-2 rounded-md text-sm font-medium "
                                 >
                                     home
                                 </Link>
@@ -59,7 +59,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer hover:text-orange-400 text-black  px-3 py-2 rounded-md text-sm font-medium "
                                 >
                                     tours
                                 </Link>
@@ -69,7 +69,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer hover:text-orange-400 text-black  px-3 py-2 rounded-md text-sm font-medium "
                                 >
                                     about us
                                 </Link>
@@ -80,7 +80,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer  text-black hover:text-cyan-600 px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer  text-black hover:text-orange-400 px-3 py-2 rounded-md text-sm font-medium "
                                 >
                                     contact us
                                 </Link>
@@ -168,7 +168,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:text-cyan-500 text-black block px-3 py-2 rounded-md text-base font-medium text-center"
+                                className="cursor-pointer hover:text-orange-400 text-black block px-3 py-2 rounded-md text-base font-medium text-center"
                             >
                                 home
                             </Link>
@@ -179,7 +179,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:text-cyan-500 text-black block px-3 py-2 rounded-md text-base font-medium text-center"
+                                className="cursor-pointer hover:text-orange-400 text-black block px-3 py-2 rounded-md text-base font-medium text-center"
                             >
                                 tours
                             </Link>
@@ -190,7 +190,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:text-cyan-500 text-black  block px-3 py-2 rounded-md text-base font-medium text-center"
+                                className="cursor-pointer hover:text-orange-400 text-black  block px-3 py-2 rounded-md text-base font-medium text-center"
                             >
                                 about us
                             </Link>
@@ -202,7 +202,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer bg-cyan-500 hover:bg-black text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center"
+                                className="cursor-pointer  text-black hover:text-orange-400 block px-3 py-2 rounded-md text-base font-medium text-center"
                             >
                                 contact us
                             </Link>
