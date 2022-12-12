@@ -27,12 +27,16 @@ function Navbar () {
                                 offset={50}
                                 duration={500}
                             >
-                              <h1 className=" font-bold text-xl cursor-pointer -ml-12 font-Zen Dots">
+                              <div className="  cursor-pointer -ml-12">
                                 <Image 
                                 src={travel}
-                                width={50}
+                                width={40}
                                 />
-                            </h1>  
+                                <h1 className=" font-bold text-sm cursor-pointer ml-1">
+										<span className="text-blue-500">E&M</span>
+									</h1>
+                                </div> 
+                                
                             </Link>
                             
                         </div>
@@ -86,9 +90,9 @@ function Navbar () {
                             
                         </div>
 
-                        <div>
-                            <button>log in</button>
-                            <button>register</button>
+                        <div className="flex justify-center items-center flex-shrink-0">
+                            <button className="text-sm border-solid border-2 border-orange-400 p-2 px-3 py-1 rounded-full">log in</button>
+                            <button className="text-sm border-solid border-2 border-orange-400 p-2 px-3 py-1 rounded-full ml-2 text-white bg-orange-400">register</button>
                         </div>
                         
                     </div>
