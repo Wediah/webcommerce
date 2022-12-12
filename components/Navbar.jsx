@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import { Transition } from '@headlessui/react'
 import { Link } from "react-scroll"
+import Image from "next/image";
+import travel from "../public/travel.png"
 
 
 
@@ -26,8 +28,10 @@ function Navbar () {
                                 duration={500}
                             >
                               <h1 className=" font-bold text-xl cursor-pointer -ml-12 font-Zen Dots">
-                                <span className="">Wediah</span>
-                                <span className="text-cyan-500">Emmanuel</span>
+                                <Image 
+                                src={travel}
+                                width={50}
+                                />
                             </h1>  
                             </Link>
                             
