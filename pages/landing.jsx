@@ -5,7 +5,9 @@ import beach from '../public/beach2.jpg'
 import { MdOutlineBed } from 'react-icons/md'
 import { TfiHome } from 'react-icons/tfi'
 import { HiOutlineTicket } from 'react-icons/hi'
-import { IoRestaurantOutline } from 'react-icons/io'
+import { IoRestaurantOutline } from 'react-icons/io5'
+import { TbWorld } from 'react-icons/tb'
+import { TfiMoreAlt } from 'react-icons/tfi'
 
 
 function Homepage () {
@@ -28,13 +30,13 @@ function Homepage () {
                 <h1 className='pt-40 text-4xl font-bold text-white text-center'>
                     Vacation anywhere in the world with E&M tours.
                 </h1>
-                <div className='text-white  inline-flex p-10 object-center'>
-                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Hotels <MdOutlineBed/> </div>
-                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Vacation Rentals <TfiHome/> </div>
-                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Things to do <HiOutlineTicket/> </div>
-                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Restaurants <IoRestaurantOutline/> </div>
-                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Travel Stories <TbWorld/> </div>
-                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>More</div>
+                <div className='text-white  inline-flex p-10 object-center ml-10 items-baseline space-x-4 justify-center mx-auto'>
+                    <div className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white '>Hotels <MdOutlineBed className='text-xl ml-10'/> </div>
+                    <div className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white'>Vacation Rentals <TfiHome className='text-xl ml-10'/> </div>
+                    <div className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white'>Things to do <HiOutlineTicket className='text-xl ml-10'/>  </div>
+                    <div className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white'>Restaurants <IoRestaurantOutline className='text-xl ml-10'/> </div>
+                    <div className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white'>Travel Stories <TbWorld className='text-xl ml-10'/> </div>
+                    <div className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white'>More <TfiMoreAlt className='text-xl ml-10'/> </div>
                     
                 </div>
             </>
