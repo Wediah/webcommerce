@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { Element } from "react-scroll"
 import beach from '../public/beach2.jpg'
+import { MdOutlineBed } from 'react-icons'
 
 
 function Homepage () {
@@ -14,20 +15,24 @@ function Homepage () {
                     width: "100vw",
                     height: "100vh"
                     }}>
-                    <Image 
+                    <Image className='brightness-50'
                     src={beach}
                     alt=""
                     layout="fill"
                     objectFit='cover'
                     />
                 </div>
-                <h1 className='pt-60 text-4xl font-bold text-white text-center'>
+                <h1 className='pt-40 text-4xl font-bold text-white text-center'>
                     Vacation anywhere in the world with E&M tours.
                 </h1>
-                <div>
-                    <div>
-
-                    </div>
+                <div className='text-white  inline-flex p-10 object-center'>
+                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Hotels  </div>
+                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Vacation Rentals</div>
+                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Things to do</div>
+                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Restaurants</div>
+                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Travel Stories</div>
+                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>More</div>
+                    
                 </div>
             </>
 
