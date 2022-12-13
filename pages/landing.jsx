@@ -2,7 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import { Element } from "react-scroll"
 import beach from '../public/beach2.jpg'
-import { MdOutlineBed } from 'react-icons'
+import { MdOutlineBed } from 'react-icons/md'
+import { TfiHome } from 'react-icons/tfi'
 
 
 function Homepage () {
@@ -26,8 +27,8 @@ function Homepage () {
                     Vacation anywhere in the world with E&M tours.
                 </h1>
                 <div className='text-white  inline-flex p-10 object-center'>
-                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Hotels  </div>
-                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Vacation Rentals</div>
+                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Hotels <MdOutlineBed/> </div>
+                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Vacation Rentals <TfiHome/> </div>
                     <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Things to do</div>
                     <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Restaurants</div>
                     <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Travel Stories</div>
