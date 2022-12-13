@@ -14,7 +14,7 @@ function Navbar () {
 
 
 	return (
-        <nav className=" shadow-lg fixed w-full z-10 bg-white">
+        <nav className="fixed w-full z-10 bg-transparent">
             <div className="w-full">
                 <div className="flex items-center h-20 w-full">
                     <div className="flex items-center  mx-20  justify-between w-full">
@@ -33,7 +33,7 @@ function Navbar () {
                                 width={40}
                                 />
                                 <h1 className=" font-bold text-sm cursor-pointer ml-1">
-										<span className="text-orange-400">E&M</span>
+										<span className="text-white">E&M</span>
 									</h1>
                                 </div> 
                                 
@@ -49,7 +49,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-orange-400 text-black  px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer text-white hover:underline hover:decoration-orange-400 hover:decoration-4   px-3 py-2 rounded-md text-md font-medium "
                                 >
                                     home
                                 </Link>
@@ -59,7 +59,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-orange-400 text-black  px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer hover:underline hover:decoration-orange-400 hover:decoration-4 text-white  px-3 py-2 rounded-md text-md font-medium "
                                 >
                                     tours
                                 </Link>
@@ -69,7 +69,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-orange-400 text-black  px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer hover:underline hover:decoration-orange-400 hover:decoration-4 text-white  px-3 py-2 rounded-md text-md font-medium "
                                 >
                                     about us
                                 </Link>
@@ -80,7 +80,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer  text-black hover:text-orange-400 px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer  text-white hover:underline hover:decoration-orange-400 hover:decoration-4 px-3 py-2 rounded-md text-md font-medium "
                                 >
                                     contact us
                                 </Link>
@@ -90,7 +90,7 @@ function Navbar () {
                             
                         </div>
 
-                        <div className="flex justify-center items-center flex-shrink-0">
+                        <div className="flex justify-center items-center flex-shrink-0 text-white">
                             <button className="text-sm border-solid border-2 border-orange-400 p-2 px-3 py-1 rounded-full">log in</button>
                             <button className="text-sm border-solid border-2 border-orange-400 p-2 px-3 py-1 rounded-full ml-2 text-white bg-orange-400">register</button>
                         </div>
