@@ -4,6 +4,8 @@ import { Element } from "react-scroll"
 import beach from '../public/beach2.jpg'
 import { MdOutlineBed } from 'react-icons/md'
 import { TfiHome } from 'react-icons/tfi'
+import { HiOutlineTicket } from 'react-icons/hi'
+import { IoRestaurantOutline } from 'react-icons/io'
 
 
 function Homepage () {
@@ -29,9 +31,9 @@ function Homepage () {
                 <div className='text-white  inline-flex p-10 object-center'>
                     <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Hotels <MdOutlineBed/> </div>
                     <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Vacation Rentals <TfiHome/> </div>
-                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Things to do</div>
-                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Restaurants</div>
-                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Travel Stories</div>
+                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Things to do <HiOutlineTicket/> </div>
+                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Restaurants <IoRestaurantOutline/> </div>
+                    <div className='p-5 border-solid border-2 border-white rounded-md text-md'>Travel Stories <TbWorld/> </div>
                     <div className='p-5 border-solid border-2 border-white rounded-md text-md'>More</div>
                     
                 </div>
