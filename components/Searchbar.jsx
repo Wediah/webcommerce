@@ -36,7 +36,7 @@ export default function Searchbar(props) {
       </div>
       <AnimatePresence>{isExpanded && (<div className='flex min-w-full min-h-[1px] bg-slate-300'></div>)}</AnimatePresence>
       
-      <div className='w-full h-full flex flex-col p-2'>hello</div>
+      <div className='w-full h-full flex flex-col p-2 text-left'>hello</div>
     </motion.div>
   )
 }
