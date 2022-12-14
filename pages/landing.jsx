@@ -8,8 +8,7 @@ import { HiOutlineTicket } from 'react-icons/hi'
 import { IoRestaurantOutline } from 'react-icons/io5'
 import { TbWorld } from 'react-icons/tb'
 import { TfiMoreAlt } from 'react-icons/tfi'
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
+
 
 
 
@@ -42,6 +41,8 @@ function Homepage () {
                     <div className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white h-20'>More <TfiMoreAlt className='text-xl ml-10'/> </div>
                     
                 </div>
+
+                
             </>
 
         </Element>
