@@ -33,9 +33,10 @@ export default function Searchbar(props) {
         <div className='searchicon'><AiOutlineSearch className='text-2xl align-middle'/></div>
         <input type="text" placeholder='Where to?' className='w-full h-full outline-none border-none text-md font-semibold rounded-full bg-transparent p-4 focus:outline-none placeholder:text-slate-400 placeholder:italic placeholder:focus:opacity-0 placeholder:transition-all placeholder:ease-in-out placeholder:duration-75' onFocus={expandContainer} ref={inputRef} />
         <AnimatePresence>{isExpanded && (<motion.span key='close-icon' initial={{ opacity: 0}} animate={{ opacity: 1}} exit={{ opacity: 0}} transition={{ duration: 0.2 }} className='close'><AiOutlineClose className='text-2xl cursor-pointer align-middle hover:text-slate-600' onClick={collapseContainer}/></motion.span>)}</AnimatePresence>
-        
-        
       </div>
+      <AnimatePresence>{isExpanded && (<div className='flex min-w-full min-h-[1px] bg-slate-300'></div>)}</AnimatePresence>
+      
+      <div className='w-full h-full flex flex-col p-2'>hello</div>
     </motion.div>
   )
 }
