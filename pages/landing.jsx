@@ -41,7 +41,7 @@ function Homepage () {
                     <div className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white h-20 cursor-pointer'>More <TfiMoreAlt className='text-3xl ml-10'/> </div>
                     
                 </div>
-                <input placeholder='where to' ></input>
+                
                 
             </>
 
