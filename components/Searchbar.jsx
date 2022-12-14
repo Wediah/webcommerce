@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import {AiOutlineSearch , AiOutlineClose} from 'react-icons/ai'
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { useClickOutside } from 'react-click-outside-hook'; 
 
 
@@ -32,7 +32,8 @@ export default function Searchbar(props) {
       <div className='flex w-full min-h-16 relative items-center px-3' >
         <div className='searchicon'><AiOutlineSearch className='text-2xl align-middle'/></div>
         <input type="text" placeholder='Where to?' className='w-full h-full outline-none border-none text-md font-semibold rounded-full bg-transparent p-4 focus:outline-none placeholder:text-slate-400 placeholder:italic placeholder:focus:opacity-0 placeholder:transition-all placeholder:ease-in-out placeholder:duration-75' onFocus={expandContainer} ref={inputRef} />
-        <div className='close'><AiOutlineClose className='text-2xl cursor-pointer align-middle hover:text-slate-600' onClick={collapseContainer}/></div>
+        <AnimatePresence>{isExpanded && (<motion.span key='close-icon' initial={{ opacity: 0}} animate={{ opacity: 1}} exit={{ opacity: 0}} transition={{ duration: 0.2 }} className='close'><AiOutlineClose className='text-2xl cursor-pointer align-middle hover:text-slate-600' onClick={collapseContainer}/></motion.span>)}</AnimatePresence>
+        
         
       </div>
     </motion.div>
