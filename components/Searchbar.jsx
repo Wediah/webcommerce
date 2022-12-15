@@ -50,7 +50,7 @@ export default function Searchbar(props) {
   }, [isClickOustide]);
 
   const prepareSearchQuery = (query) => {
-    const url = `https://restcountries.com/v2/all?q=${query}`;
+    const url = `https://restcountries.com/v3.1/all?q=${query}`;
 
     return encodeURI(url);
   };
@@ -100,25 +100,20 @@ export default function Searchbar(props) {
         </div>
         <div className='w-full h-full flex items-center justify-center'>
           {!isLoading && isEmpty && !noCountryName && (
-            <span className='text-md text-black'>start typing your next destination</span>
+            <span className='text-md text-black pt-20  font-thin'>start typing your next destination</span>
           )}
         </div>
         <div className='w-full h-full flex items-center justify-center'>
           {!isLoading && noCountryName && (
-            <span className='text-md text-black'>emmmm we can't find your destination</span>
+            <span className='text-md text-black pt-20  font-thin'>emmmm we can't find your destination</span>
           )}
         </div>
         {!isLoading && !isEmpty && ( 
           <>
-            {countryName.map(({ show }) => (
+            {countryName.map((countryName) => (
               <CountryName
-              key={show.id}
-              
-              name={show.name}
-              capital={show.capital}
-              language={show.language}
-              currencies={show.currencies}
-
+              thumbnailSrc={countryName.flags.svg}
+              name={countryName.name}
               />
             ))}
           

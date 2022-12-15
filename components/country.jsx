@@ -3,24 +3,15 @@ import React from "react";
 
 
 export function CountryName(props) {
-    const { flag, name, capital, language, currencies } = props;
+    const { thumbnailSrc, name } = props;
 
     return (
-        <div className="w-full min-h-[6em] flex divide-y-2 divide-solid divide-black px-2 items-center">
-            <div className="w-auto h-full flex flex-1">
-                <img className="w-auto h-full" src={flag} />
+        <div className="w-full min-h-[6em] flex divide divide-solid divide-black  items-center">
+            <div className="w-auto h-full flex shadow-sm">
+                <img className="w-auto h-full" src={thumbnailSrc} />
             </div>
-            <div className="text-md text-black ml-2 flex flex-1">
+            <div className="text-md text-black  flex shadow-sm ">
                 {name}
-            </div>
-            <div className="text-md text-black ml-2 flex flex-1">
-                {capital}
-            </div>
-            <div className="text-md text-black ml-2 flex flex-1">
-                {language}
-            </div>
-            <div className="text-md text-black ml-2 flex flex-1">
-                {currencies}
             </div>
         </div>
     );
