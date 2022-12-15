@@ -5,6 +5,7 @@ import { useClickOutside } from 'react-click-outside-hook';
 import { MoonLoader } from 'react-spinners';
 import { useDebounce, useDebounceHook } from './debounceHook';
 import axios from 'axios';
+import { CountryName } from './country';
 
 
 const containerVariants = {
@@ -18,9 +19,16 @@ export default function Searchbar(props) {
   const inputRef = useRef();
   const [searchQuery, setSearchQuery] = useState("");
   const [isLoading, setLoading] = useState(false);
+  const [countryName, setCountryName] = useState([]);
+  const [noCountryName, setNoCountryName] = useState(false);
+
+
+  const isEmpty = !countryName || countryName.lenght === 0;
 
   const changeHandler = (e) => {
     e.preventDefault();
+    if (e.target.value.trim() === "") setNoCountryName(false);
+
     setSearchQuery(e.target.value);
   }
 
@@ -32,8 +40,9 @@ export default function Searchbar(props) {
     setExpanded(false);
     setSearchQuery("");
     setLoading(false);
-    if(inputRef.current)
-    inputRef.current.value = "";
+    setNoCountryName(false);
+    setCountryName([]);
+    if(inputRef.current) inputRef.current.value = "";
   }
 
   useEffect(() => {
@@ -50,6 +59,7 @@ export default function Searchbar(props) {
     if(!searchQuery || searchQuery.trim() === "" ) return;
 
     setLoading(true);
+    setNoCountryName(true);
 
     const URL = prepareSearchQuery(searchQuery);
 
@@ -59,6 +69,10 @@ export default function Searchbar(props) {
 
     if(response) {
       console.log("Response: ", response.data);
+      if (response.data && response.data.lenght === 0) setNoCountryName(true);
+
+
+      setCountryName(response.data);
     }
 
     setLoading(false);
@@ -84,6 +98,32 @@ export default function Searchbar(props) {
             <MoonLoader loading color="#000" size={20}/>
           )}
         </div>
+        <div className='w-full h-full flex items-center justify-center'>
+          {!isLoading && isEmpty && !noCountryName && (
+            <span className='text-md text-black'>start typing your next destination</span>
+          )}
+        </div>
+        <div className='w-full h-full flex items-center justify-center'>
+          {!isLoading && noCountryName && (
+            <span className='text-md text-black'>emmmm we can't find your destination</span>
+          )}
+        </div>
+        {!isLoading && !isEmpty && ( 
+          <>
+            {countryName.map(({ show }) => (
+              <CountryName
+              key={show.id}
+              
+              name={show.name}
+              capital={show.capital}
+              language={show.language}
+              currencies={show.currencies}
+
+              />
+            ))}
+          
+          </>
+        )}
       </div>
     </motion.div>
   )
