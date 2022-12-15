@@ -50,7 +50,7 @@ export default function Searchbar(props) {
   }, [isClickOustide]);
 
   const prepareSearchQuery = (query) => {
-    const url = `https://restcountries.com/v3.1/all?q=${query}`;
+    const url = `https://api.tvmaze.com/search/shows?q=${query}`;
 
     return encodeURI(url);
   };
@@ -81,7 +81,7 @@ export default function Searchbar(props) {
 
   useDebounce(searchQuery, 500, searchCountry)
 
-  console.log ('value: ', searchQuery);
+  
 
   return (
     <motion.div className='flex flex-col w-1/2 h-14 bg-white rounded-3xl shadow-2xl overflow-hidden text-center mx-auto mt-5' animate={isExpanded ? 'expanded' : 'collapsed'} variants={containerVariants} ref={parentRef}>
@@ -92,7 +92,7 @@ export default function Searchbar(props) {
       </div>
       <AnimatePresence>{isExpanded && (<div className='flex min-w-full min-h-[1px] bg-slate-300'></div>)}</AnimatePresence>
       
-      <div className='w-full h-full flex flex-col p-2 text-left'>
+      <div className='w-full h-full flex flex-col p-2 text-left overflow-auto'>
         <div className='w-full h-full flex items-center justify-center'>
           {isLoading && (
             <MoonLoader loading color="#000" size={20}/>
@@ -100,20 +100,22 @@ export default function Searchbar(props) {
         </div>
         <div className='w-full h-full flex items-center justify-center'>
           {!isLoading && isEmpty && !noCountryName && (
-            <span className='text-md text-black pt-20  font-thin'>start typing your next destination</span>
+            <span className='text-md text-black pt-5 font-bold animate-pulse'>a journey of a life time starts with a search</span>
           )}
         </div>
         <div className='w-full h-full flex items-center justify-center'>
           {!isLoading && noCountryName && (
-            <span className='text-md text-black pt-20  font-thin'>emmmm we can't find your destination</span>
+            <span className='text-md text-black pb-24  font-bold animate-pulse'>emmmm we can't find your destination</span>
           )}
         </div>
         {!isLoading && !isEmpty && ( 
           <>
-            {countryName.map((countryName) => (
+            {countryName.map(({show}) => (
               <CountryName
-              thumbnailSrc={countryName.flags.svg}
-              name={countryName.name}
+              key={show.id}
+              thumbnailSrc={show.image && show.image.medium}
+              name={show.name}
+              rating={show.rating && show.rating.average}
               />
             ))}
           
