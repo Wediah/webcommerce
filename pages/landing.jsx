@@ -9,7 +9,7 @@ import { IoRestaurantOutline } from 'react-icons/io5'
 import { TbWorld } from 'react-icons/tb'
 import { TfiMoreAlt } from 'react-icons/tfi'
 import Searchbar from '../components/Searchbar'
-import { Popover } from '@headlessui/react'
+import { Popover, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
 
 
@@ -38,32 +38,93 @@ function Homepage () {
                 <div className='text-white w-screen flex gap-5 px-5 pt-5 justify-center items-center'>
                     <Popover>
                     <Popover.Button className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white  h-20 cursor-pointer'>Hotels <MdOutlineBed className='text-3xl ml-10'/> </Popover.Button>
+
+                    <Transition
+                        as={Fragment}
+                        enter="transition ease-out duration-200"
+                        enterFrom="opacity-0 translate-y-1"
+                        enterTo="opacity-100 translate-y-0"
+                        leave="transition ease-in duration-150"
+                        leaveFrom="opacity-100 translate-y-0"
+                        leaveTo="opacity-0 translate-y-1"
+                    >
                     <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl"><Searchbar/></Popover.Panel>
+                    </Transition>
                     </Popover>
 
                     <Popover>
                     <Popover.Button className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white h-20 cursor-pointer'>Vacation Rentals <TfiHome className='text-3xl ml-10'/> </Popover.Button>
+                    <Transition
+                        as={Fragment}
+                        enter="transition ease-out duration-200"
+                        enterFrom="opacity-0 translate-y-1"
+                        enterTo="opacity-100 translate-y-0"
+                        leave="transition ease-in duration-150"
+                        leaveFrom="opacity-100 translate-y-0"
+                        leaveTo="opacity-0 translate-y-1"
+                    >
                     <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl"><Searchbar/></Popover.Panel>
+                    </Transition>
                     </Popover>
                     
                     <Popover>
                     <Popover.Button className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white h-20 cursor-pointer'>Things to do <HiOutlineTicket className='text-3xl ml-10'/>  </Popover.Button>
+                    <Transition
+                        as={Fragment}
+                        enter="transition ease-out duration-200"
+                        enterFrom="opacity-0 translate-y-1"
+                        enterTo="opacity-100 translate-y-0"
+                        leave="transition ease-in duration-150"
+                        leaveFrom="opacity-100 translate-y-0"
+                        leaveTo="opacity-0 translate-y-1"
+                    >
                     <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl"><Searchbar/></Popover.Panel>
+                    </Transition>
                     </Popover>
                     
                     <Popover>
                     <Popover.Button className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white h-20 cursor-pointer'>Restaurants <IoRestaurantOutline className='text-3xl ml-10'/> </Popover.Button>
+                    <Transition
+                        as={Fragment}
+                        enter="transition ease-out duration-200"
+                        enterFrom="opacity-0 translate-y-1"
+                        enterTo="opacity-100 translate-y-0"
+                        leave="transition ease-in duration-150"
+                        leaveFrom="opacity-100 translate-y-0"
+                        leaveTo="opacity-0 translate-y-1"
+                    >
                     <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl"><Searchbar/></Popover.Panel>
+                    </Transition>
                     </Popover>
                     
                     <Popover>
                     <Popover.Button className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white h-20 cursor-pointer'>Travel Stories <TbWorld className='text-3xl ml-10'/> </Popover.Button>
+                    <Transition
+                        as={Fragment}
+                        enter="transition ease-out duration-200"
+                        enterFrom="opacity-0 translate-y-1"
+                        enterTo="opacity-100 translate-y-0"
+                        leave="transition ease-in duration-150"
+                        leaveFrom="opacity-100 translate-y-0"
+                        leaveTo="opacity-0 translate-y-1"
+                    >
                     <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl"><Searchbar/></Popover.Panel>
+                    </Transition>
                     </Popover>
                     
                     <Popover>
                     <Popover.Button className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white h-20 cursor-pointer'>More <TfiMoreAlt className='text-3xl ml-10'/> </Popover.Button>
+                    <Transition
+                        as={Fragment}
+                        enter="transition ease-out duration-200"
+                        enterFrom="opacity-0 translate-y-1"
+                        enterTo="opacity-100 translate-y-0"
+                        leave="transition ease-in duration-150"
+                        leaveFrom="opacity-100 translate-y-0"
+                        leaveTo="opacity-0 translate-y-1"
+                    >
                     <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl"><Searchbar/></Popover.Panel>
+                    </Transition>
                     </Popover>
                     
                     
