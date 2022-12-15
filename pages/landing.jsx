@@ -32,7 +32,7 @@ function Homepage () {
                     objectFit='cover'
                     />
                 </div>
-                <h1 className='pt-40 text-4xl font-bold text-white text-center'>
+                <h1 className='pt-80 text-4xl font-bold text-white text-center'>
                     Vacation anywhere in the world with E&M tours.
                 </h1>
                 <div className='text-white w-screen flex gap-5 px-5 pt-5 justify-center items-center'>
@@ -48,7 +48,7 @@ function Homepage () {
                         leaveFrom="opacity-100 translate-y-0"
                         leaveTo="opacity-0 translate-y-1"
                     >
-                    <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl"><Searchbar/></Popover.Panel>
+                    <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl text-black"><Searchbar/></Popover.Panel>
                     </Transition>
                     </Popover>
 
@@ -63,7 +63,7 @@ function Homepage () {
                         leaveFrom="opacity-100 translate-y-0"
                         leaveTo="opacity-0 translate-y-1"
                     >
-                    <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl"><Searchbar/></Popover.Panel>
+                    <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl text-black"><Searchbar/></Popover.Panel>
                     </Transition>
                     </Popover>
                     
@@ -78,7 +78,7 @@ function Homepage () {
                         leaveFrom="opacity-100 translate-y-0"
                         leaveTo="opacity-0 translate-y-1"
                     >
-                    <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl"><Searchbar/></Popover.Panel>
+                    <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl text-black"><Searchbar/></Popover.Panel>
                     </Transition>
                     </Popover>
                     
@@ -93,7 +93,7 @@ function Homepage () {
                         leaveFrom="opacity-100 translate-y-0"
                         leaveTo="opacity-0 translate-y-1"
                     >
-                    <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl"><Searchbar/></Popover.Panel>
+                    <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl text-black"><Searchbar/></Popover.Panel>
                     </Transition>
                     </Popover>
                     
@@ -108,12 +108,12 @@ function Homepage () {
                         leaveFrom="opacity-100 translate-y-0"
                         leaveTo="opacity-0 translate-y-1"
                     >
-                    <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl"><Searchbar/></Popover.Panel>
+                    <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl text-black"><Searchbar/></Popover.Panel>
                     </Transition>
                     </Popover>
                     
                     <Popover>
-                    <Popover.Button className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white h-20 cursor-pointer'>More <TfiMoreAlt className='text-3xl ml-10'/> </Popover.Button>
+                    <Popover.Button className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white h-20 cursor-pointer' >More <TfiMoreAlt className='text-3xl ml-10'/> </Popover.Button>
                     <Transition
                         as={Fragment}
                         enter="transition ease-out duration-200"
@@ -123,13 +123,13 @@ function Homepage () {
                         leaveFrom="opacity-100 translate-y-0"
                         leaveTo="opacity-0 translate-y-1"
                     >
-                    <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl"><Searchbar/></Popover.Panel>
+                    <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-lg -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl text-black"><Searchbar/></Popover.Panel>
                     </Transition>
                     </Popover>
                     
                     
                 </div>
-                <Searchbar/>
+                
                 
                 
             </>
