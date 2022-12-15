@@ -3,6 +3,8 @@ import {AiOutlineSearch , AiOutlineClose} from 'react-icons/ai'
 import { AnimatePresence, motion } from 'framer-motion';
 import { useClickOutside } from 'react-click-outside-hook'; 
 import { MoonLoader } from 'react-spinners';
+import { useDebounce, useDebounceHook } from './debounceHook';
+import axios from 'axios';
 
 
 const containerVariants = {
@@ -15,6 +17,7 @@ export default function Searchbar(props) {
   const [parentRef, isClickOustide] = useClickOutside();
   const inputRef = useRef();
   const [searchQuery, setSearchQuery] = useState("");
+  const [isLoading, setLoading] = useState(false);
 
   const changeHandler = (e) => {
     e.preventDefault();
@@ -28,6 +31,7 @@ export default function Searchbar(props) {
   const collapseContainer = () => {
     setExpanded(false);
     setSearchQuery("");
+    setLoading(false);
     if(inputRef.current)
     inputRef.current.value = "";
   }
@@ -36,9 +40,34 @@ export default function Searchbar(props) {
     if (isClickOustide) collapseContainer();
   }, [isClickOustide]);
 
-  const searchCountry = () => {
+  const prepareSearchQuery = (query) => {
+    const url = `https://restcountries.com/v2/all?q=${query}`;
+
+    return encodeURI(url);
+  };
+
+  const searchCountry = async () => {
+    if(!searchQuery || searchQuery.trim() === "" ) return;
+
+    setLoading(true);
+
+    const URL = prepareSearchQuery(searchQuery);
+
+    const response = await axios.get(URL).catch((err) => {
+      console.log("Error: ", err);
+    });
+
+    if(response) {
+      console.log("Response: ", response.data);
+    }
+
+    setLoading(false);
 
   }
+
+  useDebounce(searchQuery, 500, searchCountry)
+
+  console.log ('value: ', searchQuery);
 
   return (
     <motion.div className='flex flex-col w-1/2 h-14 bg-white rounded-3xl shadow-2xl overflow-hidden text-center mx-auto mt-5' animate={isExpanded ? 'expanded' : 'collapsed'} variants={containerVariants} ref={parentRef}>
@@ -51,7 +80,9 @@ export default function Searchbar(props) {
       
       <div className='w-full h-full flex flex-col p-2 text-left'>
         <div className='w-full h-full flex items-center justify-center'>
-          <MoonLoader loading color="#000" size={20}/>
+          {isLoading && (
+            <MoonLoader loading color="#000" size={20}/>
+          )}
         </div>
       </div>
     </motion.div>
