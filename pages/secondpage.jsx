@@ -28,8 +28,8 @@ function Secondpage() {
   return (
     <Element id="tours" name="tours">
         <div className='min-h-screen text-white bg-white pt-10 brightness-75 px-20'>
-        <h1 className='pt-20 text-2xl font-medium text-black  inline-flex items-center mx-60'>
-          h<AiFillFire className=' text-md text-red-500'/>t tours 
+        <h1 className='pt-20 text-2xl font-bold text-black text-center underline decoration-orange-500 '>
+          hot tours 
         </h1>
         <div className='flex flex-col py-10 gap-10 lg:flex-row lg:flex-wrap'>
           <div  className='basis-1/4 flex-1 bg-orange-500 rounded-lg'>
