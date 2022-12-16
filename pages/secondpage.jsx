@@ -32,43 +32,40 @@ function Secondpage() {
           h<AiFillFire className=' text-md text-red-500'/>t tours 
         </h1>
         <div className='flex flex-col py-10 gap-10 lg:flex-row lg:flex-wrap'>
-          <div className='basis-1/3 flex-1 bg-orange-500 rounded-lg'>
-            <Image alt="" src={Accra} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
-            <p className="font-medium text-sm bg-transparent text-center">Accra, Ghana - West Africa</p>
-          </div>
-          <div className='basis-1/3 flex-1 bg-orange-500 rounded-lg'>
+          <div  className='basis-1/4 flex-1 bg-orange-500 rounded-lg'>
             <Image alt="" src={dubia} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
+            
             <p className="font-medium text-sm bg-transparent text-center">Dubia, UAE</p>
           </div>
-          <div className='basis-1/3 flex-1 bg-orange-500 rounded-lg'>
+          <div  className='basis-1/4 flex-1 bg-orange-500 rounded-lg'>
             <Image alt="" src={bali} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Bali, Asia</p>
           </div>
-          <div className='basis-1/3 flex-1 bg-orange-500 rounded-lg'>
+          <div  className='basis-1/4 flex-1 bg-orange-500 rounded-lg'>
             <Image alt="" src={greece} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Greece, Europe</p>
           </div>
-          <div className='basis-1/3 flex-1 bg-orange-500 rounded-lg'>
+          <div  className='basis-1/4 flex-1 bg-orange-500 rounded-lg'>
             <Image alt="" src={italy} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Italy, Europe</p>
           </div>
-          <div className='basis-1/3 flex-1 bg-orange-500 rounded-lg'>
+          <div  className='basis-1/4 flex-1 bg-orange-500 rounded-lg'>
             <Image alt="" src={hawaii} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Hawaii, USA</p>
           </div>
-          <div className='basis-1/3 flex-1 bg-orange-500 rounded-lg'>
+          <div  className='basis-1/4 flex-1 bg-orange-500 rounded-lg'>
             <Image alt="" src={japan} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Japan, Asia</p>
           </div>
-          <div className='basis-1/3 flex-1 bg-orange-500 rounded-lg'>
+          <div  className='basis-1/4 flex-1 bg-orange-500 rounded-lg'>
             <Image alt="" src={maldives} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Maldives, Africa</p>
           </div>
-          <div className='basis-1/3 flex-1 bg-orange-500 rounded-lg'>
+          <div  className='basis-1/4 flex-1 bg-orange-500 rounded-lg'>
             <Image alt="" src={canada} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Canada, North America</p>
           </div>
-          <div className='basis-1/3 flex-1 bg-orange-500 rounded-lg'>
+          <div  className='basis-1/4 flex-1 bg-orange-500 rounded-lg'>
             <Image alt="" src={swizzz} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Switzerland, Europe</p>
           </div>
