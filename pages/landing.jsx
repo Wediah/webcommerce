@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import React from 'react'
 import { Element } from "react-scroll"
 import beach from '../public/beach2.jpg'
