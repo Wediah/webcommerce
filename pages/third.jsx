@@ -28,8 +28,21 @@ function Thirdpage() {
                <p>Developers</p>
                <p>RSS</p> 
             </div>
-            <div></div>
-            <div></div>
+            <div>
+                <p>E&M for Business</p>
+                <p>Business Owner Login</p>
+                <p>Claim your Business Page</p>
+                <p>Advertise on E&M</p>
+                <p>E&M for Restaurant Owners</p>
+                <p>Table Management</p>
+                <p>Business Success Stories</p>
+                <p>Business Support</p>
+                <p>E&M Blog for Business</p>
+            </div>
+            <div>
+                <p></p>
+                <p></p>
+            </div>
         </div>
     </div>
   )
