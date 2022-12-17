@@ -54,7 +54,7 @@ function Secondpage() {
 
   return (
     <Element id="tours" name="tours">
-        <div className='min-h-screen text-white bg-white pt-10 brightness-75 px-20'>
+        <div className='min-h-screen text-white bg-white pt-20 brightness-75 px-20'>
         <h1 className='pt-20 text-2xl font-bold text-black text-center underline decoration-orange-500 '>
           hot tours 
         </h1>
@@ -75,7 +75,7 @@ function Secondpage() {
         
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
-        className='pt-10'
+        className='pt-20'
         >
           <div  className=' bg-orange-500 rounded-lg'>
             <Image alt="" src={dubia} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
