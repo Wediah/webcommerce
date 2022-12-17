@@ -2,46 +2,65 @@ import React from 'react'
 
 function Thirdpage() {
   return (
-    <div className='min-h-screen'>
-        <div>
+    <div className='min-h-screen bg-gray-400 text-white'>
+        <div className='flex gap-20 px-20 pt-32'>
             <div>
-                <p>About E&M</p>
-                <p>Careers</p>
-                <p>Press</p>
-                <p>Investor Relations</p>
-                <p>Trust & Safety</p>
-                <p>Content Guidelines</p>
-                <p>Accessibility Statement</p>
-                <p>Terms of Service</p>
-                <p>Privacy Policy</p>
-                <p>Ad Choices</p>
-                <p>Your Privacy Choices</p>
+                <h1 className='text-black font-bold text-xl'>About Us</h1>
+                <p className='cursor-pointer'>About E&M</p>
+                <p className='cursor-pointer'>Careers</p>
+                <p className='cursor-pointer'>Press</p>
+                <p className='cursor-pointer'>Investor Relations</p>
+                <p className='cursor-pointer'>Trust & Safety</p>
+                <p className='cursor-pointer'>Content Guidelines</p>
+                <p className='cursor-pointer'>Accessibility Statement</p>
+                <p className='cursor-pointer'>Terms of Service</p>
+                <p className='cursor-pointer'>Privacy Policy</p>
+                <p className='cursor-pointer'>Ad Choices</p>
+                <p className='cursor-pointer'>Your Privacy Choices</p>
             </div>
             <div>
-               <p>E&M Project Cost Guides</p>
-               <p>Collections</p>
-               <p>Talk</p>
-               <p>Events</p>
-               <p>E&M Blogs</p>
-               <p>Support</p>
-               <p>E&M Mobile</p>
-               <p>Developers</p>
-               <p>RSS</p> 
+                <h1 className='text-black font-bold text-xl'>Discover</h1>
+               <p className='cursor-pointer'>E&M Project Cost Guides</p>
+               <p className='cursor-pointer'>Collections</p>
+               <p className='cursor-pointer'>Talk</p>
+               <p className='cursor-pointer'>Events</p>
+               <p className='cursor-pointer'>E&M Blogs</p>
+               <p className='cursor-pointer'>Support</p>
+               <p className='cursor-pointer'>E&M Mobile</p>
+               <p className='cursor-pointer'>Developers</p>
+               <p className='cursor-pointer'>RSS</p> 
             </div>
             <div>
-                <p>E&M for Business</p>
-                <p>Business Owner Login</p>
-                <p>Claim your Business Page</p>
-                <p>Advertise on E&M</p>
-                <p>E&M for Restaurant Owners</p>
-                <p>Table Management</p>
-                <p>Business Success Stories</p>
-                <p>Business Support</p>
-                <p>E&M Blog for Business</p>
+                <h1 className='text-black font-bold text-xl'>E&M for Business</h1>
+                <p className='cursor-pointer'>E&M for Business</p>
+                <p className='cursor-pointer'>Business Owner Login</p>
+                <p className='cursor-pointer'>Claim your Business Page</p>
+                <p className='cursor-pointer'>Advertise on E&M</p>
+                <p className='cursor-pointer'>E&M for Restaurant Owners</p>
+                <p className='cursor-pointer'>Table Management</p>
+                <p className='cursor-pointer'>Business Success Stories</p>
+                <p className='cursor-pointer'>Business Support</p>
+                <p className='cursor-pointer'>E&M Blog for Business</p>
             </div>
             <div>
-                <p></p>
-                <p></p>
+                <h1 className='text-black font-bold text-xl'>Language</h1>
+                <select className='bg-transparent border-none outline-0 text-white font-medium'>
+                    <option className='text-gray-800' >English(US)</option>
+                    <option className='text-gray-800'>French</option>
+                    <option className='text-gray-800'>Dutch</option>
+                    <option className='text-gray-800'>English(UK)</option>
+                    <option className='text-gray-800'>English(NG)</option>
+                    <option className='text-gray-800'>Twi</option>
+                </select>
+                <h1 className='text-black font-bold text-xl pt-5'>Countries</h1>
+                <select className='bg-transparent border-none outline-0 text-white font-medium'>
+                    <option className='text-gray-800' >Ghana</option>
+                    <option className='text-gray-800'>Togo</option>
+                    <option className='text-gray-800'>USA</option>
+                    <option className='text-gray-800'>Germany</option>
+                    <option className='text-gray-800'>Nigeria</option>
+                    <option className='text-gray-800'>Lomnava</option>
+                </select>
             </div>
         </div>
     </div>
