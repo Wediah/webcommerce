@@ -77,7 +77,12 @@ function Secondpage() {
         itemClass="carousel-item-padding-40-px"
         className='pt-20'
         >
-          <div  className=' bg-orange-500 rounded-lg'>
+          <div  className=' bg-orange-500 rounded-lg mx-2'>
+            <Image  alt="" src={Accra} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
+            
+            <p className="font-medium text-sm bg-transparent text-center">Accra, Ghana</p>
+          </div>
+          <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image  alt="" src={dubia} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
             
             <p className="font-medium text-sm bg-transparent text-center">Dubia, UAE</p>
