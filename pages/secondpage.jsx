@@ -1,7 +1,7 @@
 import React from 'react'
 import { Element } from 'react-scroll'
 import { AiFillFire } from 'react-icons/ai';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import Accra from '../public/Accra.jpg'
 import dubia from '../public/Dubia.jpg'
 import bali from '../public/bali.jpg'
@@ -54,7 +54,7 @@ function Secondpage() {
 
   return (
     <Element id="tours" name="tours">
-        <div className='min-h-screen text-white bg-white pt-20 brightness-75 px-20'>
+        <div className='min-h-screen text-white bg-blue-200 pt-20  px-20'>
         <h1 className='pt-20 text-2xl font-bold text-black text-center underline decoration-orange-500 '>
           hot tours 
         </h1>
@@ -78,7 +78,7 @@ function Secondpage() {
         className='pt-20'
         >
           <div  className=' bg-orange-500 rounded-lg'>
-            <Image alt="" src={dubia} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
+            <Image  alt="" src={dubia} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
             
             <p className="font-medium text-sm bg-transparent text-center">Dubia, UAE</p>
           </div>
