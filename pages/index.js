@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import styles from '../styles/Home.module.css'
+import About from './About'
 import Homepage from './landing'
 import Secondpage from './secondpage'
 import Thirdpage from './third'
@@ -19,6 +20,7 @@ export default function Home() {
         <Navbar/>
         <Homepage/>
         <Secondpage/>
+        <About/>
         <Thirdpage/>
       </main>
     </div>
