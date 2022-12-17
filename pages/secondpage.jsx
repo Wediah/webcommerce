@@ -13,6 +13,8 @@ import maldives from '../public/maldives.jpg'
 import swizzz from '../public/swizzz.jpg'
 import canada from '../public/canada.jpg'
 import { useState } from 'react'
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 function Secondpage() {
   const [isHovering, setIsHovering] = useState(false);
