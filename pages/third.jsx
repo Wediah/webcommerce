@@ -63,6 +63,8 @@ function Thirdpage() {
                 </select>
             </div>
         </div>
+
+        <h1 className="pt-40 text-center">Copyright ©2020-2026 E&M </h1>
     </div>
   )
 }
