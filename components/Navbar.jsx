@@ -91,8 +91,8 @@ function Navbar () {
                         </div>
 
                         <div className="flex justify-center items-center flex-shrink-0 text-white">
-                            <button className="text-sm border-solid border-2 border-orange-400 p-2 px-3 py-1 rounded-full text-black font-bold">log in</button>
-                            <button className="text-sm border-solid border-2 border-orange-400 p-2 px-3 py-1 rounded-full ml-2 text-black bg-orange-400 font-bold">register</button>
+                            <button className="text-sm border-solid border-2 border-orange-400 p-2 px-3 py-1 rounded-full text-black font-bold hover:transition hover:scale-105 duration-100">log in</button>
+                            <button className="text-sm border-solid border-2 border-orange-400 p-2 px-3 py-1 rounded-full ml-2 text-black bg-orange-400 font-bold hover:transition hover:scale-105 duration-100">register</button>
                         </div>
                         
                     </div>
