@@ -10,7 +10,7 @@ function About() {
     <Element id='about' name='about'>
         <div className='min-h-screen bg-white '>
             <h1 className='text-center text-xl font-bold pt-40 '>About Us</h1>
-            <div className='flex flex-wrap mx-40 gap-20 pt-10'>
+            <div className='flex flex-wrap gap-20 pt-10 flex-row md:flex-row md:flex-wrap px-20'>
                 <div className='flex basis-1/4'>
                     <span className='bg-blue-500 rounded-full p-5 font-bold text-xl  '>15</span>
                     <p className='ml-2 text-lg font-semibold'> years old <br /> <span className='text-sm font-thin'>in the tourism business</span></p>
@@ -36,7 +36,7 @@ function About() {
                     <p className='ml-2 text-lg font-semibold'>thousand <br /> <span className='text-sm font-thin'>hotels world wide</span> </p>
                 </div>
             </div>
-            <h1 className='text-center mx-44 mt-20 text-xl font-bold bg-blue-200 rounded-full'>why do people prefer us?</h1>
+            <h1 className='text-center  mt-20 text-xl font-bold p-5 '>why do people prefer us?</h1>
             <div className="flex flex-col py-10 gap-5 lg:flex-row lg:flex-wrap mx-20">
                 <div className='basis-1/3 flex-1'>
                     <ul className='m-5 pt-12' >

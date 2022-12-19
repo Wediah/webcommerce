@@ -3,7 +3,7 @@ import React from 'react'
 function Thirdpage() {
   return (
     <div className='min-h-screen bg-gray-400 text-white'>
-        <div className='flex gap-20 px-20 pt-32'>
+        <div className='flex gap-20 px-20 pt-32 flex-row flex-wrap'>
             <div>
                 <h1 className='text-black font-bold text-xl'>About Us</h1>
                 <p className='cursor-pointer'>About E&M</p>

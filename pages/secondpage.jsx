@@ -134,7 +134,7 @@ function Secondpage() {
         </Carousel>
 
         <h1 className='pt-20 text-2xl font-bold text-black text-left flex'>
-          things to do in Ghana <AiFillStar className='align-middle text-black text-3xl'/>
+          Black Star Vibes <AiFillStar className='align-middle text-black text-3xl'/>
         </h1>
         <Carousel 
         additionalTransfrom={0}

@@ -12,6 +12,8 @@ import Searchbar from '../components/Searchbar'
 import { Popover, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
 import { motion } from 'framer-motion'
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 
 
@@ -39,7 +41,7 @@ function Homepage () {
                     <h1 className='pt-48 text-4xl font-bold text-white text-center'>
                         Vacation anywhere in the world with E&M tours.
                     </h1>
-                    <div className='text-white w-screen flex gap-5 px-20 pt-10 justify-center items-center'>
+                    <div className='text-white w-screen flex flex-row flex-wrap gap-5 px-20 pb-5 pt-10 justify-center items-center'>
                         <Popover>
                         <Popover.Button className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white  h-20 cursor-pointer'>Hotels <MdOutlineBed className='text-3xl ml-10'/> </Popover.Button>
 
