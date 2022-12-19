@@ -93,43 +93,53 @@ function Secondpage() {
             <Image  alt="" src={Accra} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
             
             <p className="font-medium text-sm bg-transparent text-center">Accra, Ghana</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image  alt="" src={dubia} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
             
             <p className="font-medium text-sm bg-transparent text-center">Dubia, UAE</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={bali} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Bali, Asia</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={greece} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Greece, Europe</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={italy} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Italy, Europe</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={hawaii} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Hawaii, USA</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={japan} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Japan, Asia</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={maldives} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Maldives, Africa</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={canada} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Canada, North America</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={swizzz} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Switzerland, Europe</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
         </Carousel>
 
@@ -162,43 +172,53 @@ function Secondpage() {
             <Image  alt="" src={Accra} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
             
             <p className="font-medium text-sm bg-transparent text-center">Visit Jamestown lighthouse, Accra</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image  alt="" src={cape} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
             
             <p className="font-medium text-sm bg-transparent text-center">Visit the Cape Coast Castle, Cape Coast</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={elmina} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Visit Elmina Castle, Elmina</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={indep} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Visit the independence Square, Accra</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={kakum} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Visit Kakum National Park</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={nk} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Visit the Kwame Nkrumah Museum</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={lara} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Visit the Larabanga Mosque</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={night} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
-            <p className="font-medium text-sm bg-transparent text-center">Experience some Aboche meet in the night</p>
+            <p className="font-medium text-sm bg-transparent text-center">Visit Aboche's Joint</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={osu} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Visit the Osu Castle, Accra</p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={prin} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Experience the beautiful Princess Town </p>
+            <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
         </Carousel>
 
