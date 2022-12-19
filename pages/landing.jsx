@@ -1,5 +1,5 @@
 import Image from 'next/legacy/image'
-import React from 'react'
+import React, { useState } from 'react'
 import { Element } from "react-scroll"
 import beach from '../public/beach2.jpg'
 import { MdOutlineBed } from 'react-icons/md'
@@ -11,11 +11,14 @@ import { TfiMoreAlt } from 'react-icons/tfi'
 import Searchbar from '../components/Searchbar'
 import { Popover, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
+import { motion } from 'framer-motion'
 
 
 
 
 function Homepage () {
+    
+
     return (
         <Element id="home" name="home">
             <div className='min-h-screen'>

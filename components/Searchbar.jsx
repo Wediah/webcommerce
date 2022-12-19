@@ -105,7 +105,7 @@ export default function Searchbar(props) {
         </div>
         <div className='w-full h-full flex items-center justify-center'>
           {!isLoading && noCountryName && (
-            <span className='text-md text-black pb-24  font-bold animate-pulse'>emmmm we can't find your destination</span>
+            <span className='text-md text-black pb-24  font-bold animate-pulse'>emmmm we can&apos;t find your destination</span>
           )}
         </div>
         {!isLoading && !isEmpty && ( 

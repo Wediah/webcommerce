@@ -24,6 +24,8 @@ import prin from '../public/princess.jpg'
 import { useState } from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { SlArrowLeft, SlArrowRight} from 'react-icons/sl'
+import { motion, AnimatePresence } from 'framer-motion'
 
 function Secondpage() {
   const [isHovering, setIsHovering] = useState(false);
@@ -41,22 +43,21 @@ function Secondpage() {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
-      slidesToSlide: 2,
+      partialVisibilityGutter: 30
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 3,
-      slidesToSlide: 2,
+      partialVisibilityGutter: 30
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2,
-      slidesToSlide: 2,
+      partialVisibilityGutter: 30
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
-      slidesToSlide: 1,
     }
   };
   
@@ -68,23 +69,25 @@ function Secondpage() {
           hot tours <AiFillFire className='align-middle text-red-600 text-3xl'/>
         </h1>
         <Carousel 
-        swipeable={true}
-        draggable={true}
-        showDots={true}
+         additionalTransfrom={0}
+         arrows={true}
+         autoPlaySpeed={3000}
+         centerMode={true}
+         className="pb-10 pt-5"
+         containerClass="container-padding-bottom"
+         dotListClass=""
+         draggable
+         focusOnSelect
+         infinite
+         itemClass=""
+         keyBoardControl
+         minimumTouchDrag={80}
+         pauseOnHover
+         renderArrowsWhenDisabled={false}
+         renderButtonGroupOutside={false}
+         renderDotsOutside={false}
         responsive={Responsive}
-        ssr={true} // means to render carousel on server-side.
-        infinite={true}
-        
-        autoPlaySpeed={1000}
-        keyBoardControl={true}
-        customTransition="all .5"
-        transitionDuration={500}
-        containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
-        
-        dotListClass="custom-dot-list-style"
-        itemClass="carousel-item-padding-40-px"
-        className='pt-10 pb-10'
         >
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image  alt="" src={Accra} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
@@ -134,23 +137,26 @@ function Secondpage() {
           things to do in Ghana <AiFillStar className='align-middle text-black text-3xl'/>
         </h1>
         <Carousel 
-        swipeable={true}
-        draggable={true}
-        showDots={true}
+        additionalTransfrom={0}
+        arrows={true}
+        autoPlaySpeed={3000}
+        centerMode={true}
+        className="pb-20 pt-5"
+        containerClass="container-padding-bottom"
+        dotListClass=""
+        draggable
+        focusOnSelect
+        infinite
+        itemClass=""
+        keyBoardControl
+        minimumTouchDrag={80}
+        pauseOnHover
+        renderArrowsWhenDisabled={false}
+        renderButtonGroupOutside={false}
+        renderDotsOutside={false}
         responsive={Responsive}
-        ssr={true} 
-        infinite={true}
-        
-        autoPlaySpeed={1000}
-        keyBoardControl={true}
-        customTransition="all .5"
-        transitionDuration={500}
-        containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
         
-        dotListClass="custom-dot-list-style"
-        itemClass="carousel-item-padding-40-px"
-        className='pt-10 pb-10'
         >
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image  alt="" src={Accra} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
