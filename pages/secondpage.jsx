@@ -1,6 +1,6 @@
 import React from 'react'
 import { Element } from 'react-scroll'
-import { AiFillFire } from 'react-icons/ai';
+import { AiFillFire, AiFillStar } from 'react-icons/ai';
 import Image from 'next/legacy/image';
 import Accra from '../public/Accra.jpg'
 import dubia from '../public/Dubia.jpg'
@@ -12,6 +12,15 @@ import japan from '../public/japan.jpg'
 import maldives from '../public/maldives.jpg'
 import swizzz from '../public/swizzz.jpg'
 import canada from '../public/canada.jpg'
+import cape from '../public/cape.jpg'
+import elmina from '../public/elmina.jpg'
+import indep from '../public/independence2.jpg'
+import kakum from '../public/kakum.webp'
+import nk from '../public/knkrumah1.png'
+import lara from '../public/larabanga.jpg'
+import night from '../public/nightlife.jpg'
+import osu from '../public/osu.jpg'
+import prin from '../public/princess.jpg'
 import { useState } from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -55,8 +64,8 @@ function Secondpage() {
   return (
     <Element id="tours" name="tours">
         <div className='min-h-screen text-white bg-blue-200 pt-20  px-20'>
-        <h1 className='pt-20 text-2xl font-bold text-black text-center underline decoration-orange-500 '>
-          hot tours 
+        <h1 className='pt-20 text-2xl font-bold text-black text-left flex '>
+          hot tours <AiFillFire className='align-middle text-red-600 text-3xl'/>
         </h1>
         <Carousel 
         swipeable={true}
@@ -75,7 +84,7 @@ function Secondpage() {
         
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
-        className='pt-20'
+        className='pt-10 pb-10'
         >
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image  alt="" src={Accra} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
@@ -118,6 +127,72 @@ function Secondpage() {
           <div  className=' bg-orange-500 rounded-lg mx-2'>
             <Image alt="" src={swizzz} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Switzerland, Europe</p>
+          </div>
+        </Carousel>
+
+        <h1 className='pt-20 text-2xl font-bold text-black text-left flex'>
+          things to do in Ghana <AiFillStar className='align-middle text-black text-3xl'/>
+        </h1>
+        <Carousel 
+        swipeable={true}
+        draggable={true}
+        showDots={true}
+        responsive={Responsive}
+        ssr={true} 
+        infinite={true}
+        
+        autoPlaySpeed={1000}
+        keyBoardControl={true}
+        customTransition="all .5"
+        transitionDuration={500}
+        containerClass="carousel-container"
+        removeArrowOnDeviceType={["tablet", "mobile"]}
+        
+        dotListClass="custom-dot-list-style"
+        itemClass="carousel-item-padding-40-px"
+        className='pt-10 pb-10'
+        >
+          <div  className=' bg-orange-500 rounded-lg mx-2'>
+            <Image  alt="" src={Accra} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
+            
+            <p className="font-medium text-sm bg-transparent text-center">Visit Jamestown lighthouse, Accra</p>
+          </div>
+          <div  className=' bg-orange-500 rounded-lg mx-2'>
+            <Image  alt="" src={cape} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
+            
+            <p className="font-medium text-sm bg-transparent text-center">Visit the Cape Coast Castle, Cape Coast</p>
+          </div>
+          <div  className=' bg-orange-500 rounded-lg mx-2'>
+            <Image alt="" src={elmina} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
+            <p className="font-medium text-sm bg-transparent text-center">Visit Elmina Castle, Elmina</p>
+          </div>
+          <div  className=' bg-orange-500 rounded-lg mx-2'>
+            <Image alt="" src={indep} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
+            <p className="font-medium text-sm bg-transparent text-center">Visit the independence Square, Accra</p>
+          </div>
+          <div  className=' bg-orange-500 rounded-lg mx-2'>
+            <Image alt="" src={kakum} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
+            <p className="font-medium text-sm bg-transparent text-center">Visit Kakum National Park</p>
+          </div>
+          <div  className=' bg-orange-500 rounded-lg mx-2'>
+            <Image alt="" src={nk} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
+            <p className="font-medium text-sm bg-transparent text-center">Visit the Kwame Nkrumah Museum</p>
+          </div>
+          <div  className=' bg-orange-500 rounded-lg mx-2'>
+            <Image alt="" src={lara} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
+            <p className="font-medium text-sm bg-transparent text-center">Visit the Larabanga Mosque</p>
+          </div>
+          <div  className=' bg-orange-500 rounded-lg mx-2'>
+            <Image alt="" src={night} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
+            <p className="font-medium text-sm bg-transparent text-center">Experience some Aboche meet in the night</p>
+          </div>
+          <div  className=' bg-orange-500 rounded-lg mx-2'>
+            <Image alt="" src={osu} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
+            <p className="font-medium text-sm bg-transparent text-center">Visit the Osu Castle, Accra</p>
+          </div>
+          <div  className=' bg-orange-500 rounded-lg mx-2'>
+            <Image alt="" src={prin} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
+            <p className="font-medium text-sm bg-transparent text-center">Experience the beautiful Princess Town </p>
           </div>
         </Carousel>
 

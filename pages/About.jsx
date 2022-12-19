@@ -3,7 +3,7 @@ import { Element } from 'react-scroll'
 import Image from 'next/legacy/image'
 import tan from '../public/tanzania.jpg'
 import zanzi from '../public/zanzi.jpg'
-import { TbPoint } from 'react-icons/tb'
+import { VscActivateBreakpoints } from 'react-icons/vsc'
 
 function About() {
   return (
@@ -40,9 +40,9 @@ function About() {
             <div className="flex flex-col py-10 gap-5 lg:flex-row lg:flex-wrap mx-20">
                 <div className='basis-1/3 flex-1'>
                     <ul className='m-5 pt-12' >
-                        <li className='pb-5 text-lg flex'> <TbPoint className='text-2xl mr-2 text-orange-500'/>We offer tours to almost any corner of the world. Dreaming of visiting the enjoyment haven of Africa, Accra or the hot carribean beaches? Not a problem</li>
-                        <li className='pb-5 text-lg flex'> <TbPoint className='text-2xl mr-2 text-orange-500'/>We take care of customers 24/7. If you have any question or difficulties while traveling. we are always her for you1</li>
-                        <li className='pb-5 text-lg flex'> <TbPoint className='text-2xl mr-2 text-orange-500'/>You can buy a tour in installaments from us</li>
+                        <li className='pb-5 text-lg flex'> <VscActivateBreakpoints className='text-2xl mr-2 text-orange-500'/>We offer tours to almost any corner of the world. Dreaming of visiting the enjoyment haven of Africa, Accra or the hot carribean beaches? Not a problem</li>
+                        <li className='pb-5 text-lg flex'> <VscActivateBreakpoints className='text-2xl mr-2 text-orange-500'/>We take care of customers 24/7. If you have any question or difficulties while traveling. we are always her for you1</li>
+                        <li className='pb-5 text-lg flex'> <VscActivateBreakpoints className='text-2xl mr-2 text-orange-500'/>You can buy a tour in installaments from us</li>
                     </ul>
                 </div>
                 <div className='basis-1/3 flex-1'>
@@ -53,9 +53,9 @@ function About() {
                 </div>
                 <div className='basis-1/3 flex-1'>
                     <ul className='m-5 pt-16'>
-                        <li className='pb-5 text-lg flex'> <TbPoint className='text-2xl mr-2 text-orange-500'/>we work with the most reliable partners to offer the best tours for our beloved clients.</li>
-                        <li className='pb-5 text-lg flex'> <TbPoint className='text-2xl mr-2 text-orange-500'/> Current prices on the site and you can purchase a last minute ticket at a very favorable price.</li>
-                        <li className='pb-5 text-lg flex'> <TbPoint className='text-2xl mr-2 text-orange-500'/>Cancellation insurance at the request of the client.</li>
+                        <li className='pb-5 text-lg flex'> <VscActivateBreakpoints className='text-2xl mr-2 text-orange-500'/>we work with the most reliable partners to offer the best tours for our beloved clients.</li>
+                        <li className='pb-5 text-lg flex'> <VscActivateBreakpoints className='text-2xl mr-2 text-orange-500'/> Current prices on the site and you can purchase a last minute ticket at a very favorable price.</li>
+                        <li className='pb-5 text-lg flex'> <VscActivateBreakpoints className='text-2xl mr-2 text-orange-500'/>Cancellation insurance at the request of the client.</li>
                     </ul>
                 </div>
                 
