@@ -6,6 +6,8 @@ import About from './About'
 import Homepage from './landing'
 import Secondpage from './secondpage'
 import Thirdpage from './third'
+import Contact from './contact'
+
 
 export default function Home() {
   return (
@@ -21,6 +23,7 @@ export default function Home() {
         <Homepage/>
         <Secondpage/>
         <About/>
+        <Contact/>
         <Thirdpage/>
       </main>
     </div>
