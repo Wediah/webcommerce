@@ -1,4 +1,6 @@
 import React from 'react'
+import { AiFillFacebook, AiFillInstagram, AiFillTwitterSquare, AiOutlineWhatsApp, AiFillLinkedin } from 'react-icons/ai';
+import { FaTiktok } from 'react-icons/fa'
 
 function Thirdpage() {
   return (
@@ -61,6 +63,18 @@ function Thirdpage() {
                     <option className='text-gray-800'>Nigeria</option>
                     <option className='text-gray-800'>Lomnava</option>
                 </select>
+            </div>
+            <div>
+                <h1 className='text-black font-bold text-xl'>Our social media</h1>
+                <div className='flex text-3xl font-bold pt-4'>
+                    <AiFillFacebook className='cursor-pointer'/>
+                    <AiFillInstagram className='cursor-pointer'/>
+                    <AiFillTwitterSquare className='cursor-pointer'/>
+                    <FaTiktok className='cursor-pointer'/>
+                    <AiOutlineWhatsApp className='cursor-pointer'/>
+                    <AiFillLinkedin className='cursor-pointer'/>
+                </div>
+                
             </div>
         </div>
 
