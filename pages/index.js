@@ -7,6 +7,7 @@ import Homepage from './landing'
 import Secondpage from './secondpage'
 import Thirdpage from './third'
 import Contact from './contact'
+import Reviews from './Reviews'
 
 
 
@@ -23,6 +24,7 @@ export default function Home() {
         <Navbar/>
         <Homepage/>
         <Secondpage/>
+        <Reviews/>
         <About/>
         <Contact/>
         <Thirdpage/>
