@@ -26,6 +26,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { SlArrowLeft, SlArrowRight} from 'react-icons/sl'
 import { motion, AnimatePresence } from 'framer-motion'
+import ScrollAnimation from 'react-scroll-animation-wrapper'
 
 function Secondpage() {
   const [isHovering, setIsHovering] = useState(false);
@@ -65,9 +66,9 @@ function Secondpage() {
   return (
     <Element id="tours" name="tours">
         <div className='min-h-screen text-white bg-blue-200 pt-20  px-20'>
-        <h1 className='pt-20 text-2xl font-bold text-black text-left flex '>
+        <ScrollAnimation animateIn='fadeIn'><h1 className='pt-20 text-2xl font-bold text-black text-left flex '>
           hot tours <AiFillFire className='align-middle text-red-600 text-3xl'/>
-        </h1>
+        </h1></ScrollAnimation>
         <Carousel 
          additionalTransfrom={0}
          arrows={true}

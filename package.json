@@ -25,6 +25,7 @@
     "react-icons": "^4.7.1",
     "react-multi-carousel": "^2.8.2",
     "react-scroll": "^1.8.9",
+    "react-scroll-animation-wrapper": "^1.0.3",
     "react-spinners": "^0.13.7",
     "styled-components": "^5.3.6"
   },

@@ -9,6 +9,7 @@ import Thirdpage from './third'
 import Contact from './contact'
 
 
+
 export default function Home() {
   return (
     <div>
