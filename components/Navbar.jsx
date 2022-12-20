@@ -64,6 +64,16 @@ function Navbar () {
                                     tours
                                 </Link>
                                 <Link
+                                    activeClass="reviews"
+                                    to="reviews"
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                    className="cursor-pointer hover:underline hover:decoration-orange-400 hover:decoration-4 text-black  px-3 py-2 rounded-md text-md font-medium "
+                                >
+                                    reviews
+                                </Link>
+                                <Link
                                     activeClass="about"
                                     to="about"
                                     smooth={true}
@@ -73,7 +83,6 @@ function Navbar () {
                                 >
                                     about us
                                 </Link>
-
                                 <Link
                                     activeClass="contact"
                                     to="contact"
@@ -183,6 +192,16 @@ function Navbar () {
                             >
                                 tours
                             </Link>
+                            <Link
+                                    activeClass="reviews"
+                                    to="reviews"
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                    className="cursor-pointer hover:underline hover:decoration-orange-400 hover:decoration-4 text-black  px-3 py-2 rounded-md text-md font-medium "
+                                >
+                                    reviews
+                                </Link>
                             <Link
                                 href="/about"
                                 activeClass="about"
