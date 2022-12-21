@@ -16,7 +16,7 @@ function Reviews() {
               arrows={false}
               autoPlaySpeed={3000}
               centerMode={false}
-              className="gap-5 pb-8"
+              className="gap-5 pb-8 pt-20"
               containerClass="container-padding-bottom"
               dotListClass=""
               draggable
