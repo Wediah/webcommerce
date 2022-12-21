@@ -24,7 +24,7 @@ export default function Home() {
         <Navbar/>
         <Homepage/>
         <Secondpage/>
-        <Reviews/>
+        
         <About/>
         <Contact/>
         <Thirdpage/>
