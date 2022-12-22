@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>E&M tours</title>
         <meta name="E&M travel$ and tour$" content="where to?" />
         <link rel="icon" href="/travel.png" />
       </Head>
