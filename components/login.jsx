@@ -2,9 +2,9 @@ import React from 'react'
 
 function Login() {
   return (
-    <div className='min-h-screen bg-white'>
+    <div className='min-h-screen bg-gray-200 z-20 '>
         <div>
-        <form action="/send-data-here" method="post">
+        <form action="/send-data-here" method="post" className='flex flex-col p-40'>
             <label for="email / phone">email or phone:</label>
             <input
                 type="text"
