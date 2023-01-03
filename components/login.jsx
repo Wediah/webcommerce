@@ -11,8 +11,8 @@ function Login() {
         </div>
       
         <div className='basis-1/3 flex-1  '>
-          <span className=' font-bold text-2xl text-orange-500 pl-10 '>Login</span> <br />
-          <span className=' text-sm text-gray-400 pl-10'>Welcome back! Please fill in your details.</span>
+          <div className=' font-bold text-2xl text-orange-500 pl-10 pt-10 '>Login</div> 
+          <div className=' text-sm text-gray-400 pl-10'>Welcome back! Please fill in your details.</div>
           <form action="/send-data-here" method="post" className='flex flex-col gap-2 pl-10 pt-5 '>
               <label for="email / phone" className='font-bold text-sm'>email or phone</label>
               <input
