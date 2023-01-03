@@ -9,7 +9,7 @@ function Reviews() {
 
   return (
     <Element id='reviews' name='reviews'>
-        <div className='min-h-screen bg-white px-5 md:px-3'>
+        <div className=' bg-white px-5 md:px-3'>
             <h1 className='text-center text-2xl font-bold pt-40'>Recent Activity</h1>
             <Carousel
               additionalTransfrom={0}

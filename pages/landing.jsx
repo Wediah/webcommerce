@@ -31,7 +31,7 @@ function Homepage () {
                         width: "100vw",
                         height: "100vh"
                         }}>
-                        <Image className='brightness-50'
+                        <Image className='brightness-50 overflow-x-hidden -z-10'
                         src={beach}
                         alt=""
                         layout="fill"
