@@ -70,74 +70,75 @@ function Secondpage() {
           hot tours <AiFillFire className='align-middle text-red-600 text-3xl'/>
         </h1></ScrollAnimation>
         <Carousel 
-         additionalTransfrom={0}
-         arrows={true}
-         autoPlaySpeed={3000}
-         centerMode={true}
-         className="pb-10 pt-5"
-         containerClass="container-padding-bottom"
-         dotListClass=""
-         draggable
-         focusOnSelect
-         infinite
-         itemClass=""
-         keyBoardControl
-         minimumTouchDrag={80}
-         pauseOnHover
-         renderArrowsWhenDisabled={false}
-         renderButtonGroupOutside={false}
-         renderDotsOutside={false}
+        additionalTransfrom={0}
+        arrows
+        autoPlay
+        autoPlaySpeed={1000}
+        centerMode={false}
+        className="pb-20 pt-5"
+        containerClass="container-with-dots"
+        dotListClass=""
+        draggable
+        focusOnSelect={false}
+        infinite
+        itemClass=""
+        keyBoardControl
+        minimumTouchDrag={80}
+        pauseOnHover
+        renderArrowsWhenDisabled={false}
+        renderButtonGroupOutside={false}
+        renderDotsOutside={false}
         responsive={Responsive}
         removeArrowOnDeviceType={["tablet", "mobile"]}
         >
-          <div  className=' bg-orange-500 rounded-lg mx-2'>
+          <div  className=' bg-orange-500 rounded-lg mx-2 '>
             <Image  alt="" src={Accra} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
             
             <p className="font-medium text-sm bg-transparent text-center">Accra, Ghana</p>
             <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
-          <div  className=' bg-orange-500 rounded-lg mx-2'>
+          <div  className=' bg-orange-500 rounded-lg mx-2 '>
             <Image  alt="" src={dubia} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
             
             <p className="font-medium text-sm bg-transparent text-center">Dubia, UAE</p>
             <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
-          <div  className=' bg-orange-500 rounded-lg mx-2'>
+          <div  className=' bg-orange-500 rounded-lg mx-2 '>
             <Image alt="" src={bali} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Bali, Asia</p>
             <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
-          <div  className=' bg-orange-500 rounded-lg mx-2'>
+          <div  className=' bg-orange-500 rounded-lg mx-2 '>
             <Image alt="" src={greece} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Greece, Europe</p>
             <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
-          <div  className=' bg-orange-500 rounded-lg mx-2'>
+          <div  className=' bg-orange-500 rounded-lg mx-2 '>
             <Image alt="" src={italy} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Italy, Europe</p>
             <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
-          <div  className=' bg-orange-500 rounded-lg mx-2'>
+          <div  className=' bg-orange-500 rounded-lg mx-2 '>
             <Image alt="" src={hawaii} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Hawaii, USA</p>
             <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
-          <div  className=' bg-orange-500 rounded-lg mx-2'>
+          <div  className=' bg-orange-500 rounded-lg mx-2 '>
             <Image alt="" src={japan} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Japan, Asia</p>
             <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
-          <div  className=' bg-orange-500 rounded-lg mx-2'>
+          <div  className=' bg-orange-500 rounded-lg mx-2 '>
             <Image alt="" src={maldives} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Maldives, Africa</p>
             <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
-          <div  className=' bg-orange-500 rounded-lg mx-2'>
+          <div  className=' bg-orange-500 rounded-lg mx-2 '>
             <Image alt="" src={canada} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Canada, North America</p>
             <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
           </div>
-          <div  className=' bg-orange-500 rounded-lg mx-2'>
+          <div  className=' bg-orange-500 rounded-lg mx-2 '>
             <Image alt="" src={swizzz} className="rounded-lg object-cover" width={"100"}  height={'100'} layout="responsive"/>
             <p className="font-medium text-sm bg-transparent text-center">Switzerland, Europe</p>
             <h1 className='text-center text-sm cursor-pointer hover:transition hover:scale-75 hover:text-black'>explore now</h1>
