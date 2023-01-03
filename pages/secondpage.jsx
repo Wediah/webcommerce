@@ -65,7 +65,7 @@ function Secondpage() {
 
   return (
     <Element id="tours" name="tours">
-        <div className='min-h-screen text-white bg-blue-200 pt-20  px-20'>
+        <div className='min-h-screen text-white bg-blue-200 pt-20  px-5'>
         <ScrollAnimation animateIn='fadeIn'><h1 className='pt-20 text-2xl font-bold text-black text-left flex '>
           hot tours <AiFillFire className='align-middle text-red-600 text-3xl'/>
         </h1></ScrollAnimation>
@@ -89,7 +89,7 @@ function Secondpage() {
         renderButtonGroupOutside={false}
         renderDotsOutside={false}
         responsive={Responsive}
-        removeArrowOnDeviceType={["tablet", "mobile"]}
+        removeArrowOnDeviceType={[ "mobile"]}
         >
           <div  className=' bg-orange-500 rounded-lg mx-2 '>
             <Image  alt="" src={Accra} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
@@ -150,14 +150,15 @@ function Secondpage() {
         </h1>
         <Carousel 
         additionalTransfrom={0}
-        arrows={true}
-        autoPlaySpeed={3000}
-        centerMode={true}
+        arrows
+        autoPlay
+        autoPlaySpeed={1000}
+        centerMode={false}
         className="pb-20 pt-5"
-        containerClass="container-padding-bottom"
+        containerClass="container-with-dots"
         dotListClass=""
         draggable
-        focusOnSelect
+        focusOnSelect={false}
         infinite
         itemClass=""
         keyBoardControl
@@ -167,7 +168,7 @@ function Secondpage() {
         renderButtonGroupOutside={false}
         renderDotsOutside={false}
         responsive={Responsive}
-        removeArrowOnDeviceType={["tablet", "mobile"]}
+        removeArrowOnDeviceType={[ "mobile"]}
         
         >
           <div  className=' bg-orange-500 rounded-lg mx-2'>
