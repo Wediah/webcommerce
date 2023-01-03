@@ -10,7 +10,7 @@ function About() {
     <Element id='about' name='about'>
         <div className='min-h-screen bg-white '>
             <h1 className='text-center text-xl font-bold pt-40 '>About Us</h1>
-            <div className='flex flex-wrap gap-20 pt-10 flex-row sm:flex-row sm:flex-wrap px-20'>
+            <div className='flex flex-wrap gap-20 pt-10 flex-row sm:flex-row sm:flex-wrap px-5'>
                 <div className='flex basis-1/4 md:basis-3/6'>
                     <span className='bg-blue-500 rounded-full p-5 font-bold text-xl  '>15</span>
                     <p className='ml-2 text-lg font-semibold'> years old <br /> <span className='text-sm font-thin'>in the tourism business</span></p>
