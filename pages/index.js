@@ -8,6 +8,7 @@ import Secondpage from './secondpage'
 import Thirdpage from './third'
 import Contact from './contact'
 import Reviews from './Reviews'
+import Login from '../components/login'
 
 
 
@@ -28,6 +29,7 @@ export default function Home() {
         <About/>
         <Contact/>
         <Thirdpage/>
+        
       </main>
     </div>
   )
