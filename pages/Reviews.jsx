@@ -11,59 +11,7 @@ function Reviews() {
     <Element id='reviews' name='reviews'>
         <div className=' bg-white px-5 md:px-3'>
             <h1 className='text-center text-2xl font-bold pt-40'>Recent Activity</h1>
-            <Carousel
-              additionalTransfrom={0}
-              arrows={false}
-              autoPlaySpeed={3000}
-              centerMode={false}
-              className="gap-5 pb-8 pt-20"
-              containerClass="container-padding-bottom"
-              dotListClass=""
-              draggable
-              focusOnSelect
-              infinite
-              itemClass=""
-              keyBoardControl
-              minimumTouchDrag={80}
-              pauseOnHover
-              renderArrowsWhenDisabled={false}
-              renderButtonGroupOutside={false}
-              renderDotsOutside={false}
-              responsive={{
-                desktop: {
-                  breakpoint: {
-                    max: 3000,
-                    min: 1024
-                  },
-                  items: 3,
-                  partialVisibilityGutter: 40
-                },
-                mobile: {
-                  breakpoint: {
-                    max: 464,
-                    min: 0
-                  },
-                  items: 1,
-                  partialVisibilityGutter: 30
-                },
-                tablet: {
-                  breakpoint: {
-                    max: 1024,
-                    min: 464
-                  },
-                  items: 2,
-                  partialVisibilityGutter: 30
-                }
-              }}
-              rewind={true} mx-5
-              rewindWithAnimation={true}
-              rtl={false}
-              shouldResetAutoplay
-              showDots
-              sliderClass=""
-              slidesToSlide={1}
-              swipeable
-            >
+            <div className="gap-5 pb-8 pt-20 grid lg:grid-cols-4">
                 <div className='bg-white p-5 rounded-lg shadow-xl text-center mx-5'>
                     <div className='relative w-40 h-40 rounded-full m-auto mb-2 '>
                         <Image  alt="" src={Accra} className="block object-cover rounded-full relative" width={"100"}  height={'100'} layout="responsive" />
@@ -129,7 +77,7 @@ function Reviews() {
                     <p className='font-bold text-center text-lg'>Emma W.</p>
                     <p className='text-black text-md '>Using E&M to plan my holiday was supper nice. <br /> Great customer service </p>
                 </div>
-            </Carousel>
+            </div>
         </div>
     </Element>
     
