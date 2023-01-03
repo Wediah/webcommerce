@@ -4,20 +4,7 @@ import background from '../public/backgroud.png'
 
 function Login() {
   return (
-    <div className='min-h-screen z-20 '>
-      <div style={{
-          zIndex: -1,
-          position: "fixed",
-          width: "80vw",
-          height: "80vh"
-          }}>
-          <Image className='rounded-xl'
-          src={background}
-          alt=""
-          layout="fill"
-          objectFit='cover'
-          />
-      </div>
+    
 
       <div>
         <span className=' font-bold text-2xl text-orange-500'>Login</span> <br />
