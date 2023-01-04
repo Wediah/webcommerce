@@ -4,7 +4,7 @@ import { FaTiktok } from 'react-icons/fa'
 
 function Thirdpage() {
   return (
-    <div className='min-h-screen bg-gray-400 text-white'>
+    <div className=' bg-gray-400 text-white '>
         <div className='flex gap-20 px-20 pt-32 flex-row flex-wrap'>
             <div>
                 <h1 className='text-black font-bold text-xl'>About Us</h1>
