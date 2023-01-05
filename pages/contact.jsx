@@ -78,15 +78,17 @@ function Contact() {
                       <h3 className="pt-2 pb-2 text-3xl font-bold">Phone</h3>
                       <h4 className="text-md font-semi-bold ">(+233) 20 000 1111</h4>
                       <h4 className="text-md font-semi-bold ">(+233) 30 111 2222</h4>
+                      <div className='flex p-10'>
+                        <AiFillFacebook/>
+                        <FaFacebookMessenger/>
+                        <AiFillInstagram/>
+                        <AiFillTwitterSquare/>
+                        <AiFillLinkedin/>
+                        <AiOutlineWhatsApp/>
+                        <AiFillWechat/>
+                        <FaTiktok/>
+                      </div>
                       
-                      <AiFillFacebook/>
-                      <FaFacebookMessenger/>
-                      <AiFillInstagram/>
-                      <AiFillTwitterSquare/>
-                      <AiFillLinkedin/>
-                      <AiOutlineWhatsApp/>
-                      <AiFillWechat/>
-                      <FaTiktok/>
 
                     </div>
                 </div>
