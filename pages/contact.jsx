@@ -1,5 +1,7 @@
 import React from 'react'
 import { Element } from 'react-scroll'
+import { AiFillFacebook, AiFillInstagram, AiFillTwitterSquare, AiFillLinkedin, AiFillWechat, AiOutlineWhatsApp} from 'react-icons/ai'
+import {FaFacebookMessenger, FaTiktok } from 'react-icons/fa'
 
 function Contact() {
     // Handles the submit event on form submit.
@@ -76,8 +78,8 @@ function Contact() {
                       <h3 className="pt-2 pb-2 text-3xl font-bold">Phone</h3>
                       <h4 className="text-md font-semi-bold ">(+233) 20 000 1111</h4>
                       <h4 className="text-md font-semi-bold ">(+233) 30 111 2222</h4>
-
                       
+
                     </div>
                 </div>
         </div>
