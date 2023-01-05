@@ -45,7 +45,7 @@ function Contact() {
     <Element id="contact" name="contact">
         <div className='min-h-screen bg-white px-10'>
             <h1 className='text-center text-xl font-bold pt-40 '>Contact Us</h1>
-            <form className='flex flex-col items-center float-left  bg-slate-300 rounded-3xl shadow-2xl mr-5 mt-10' onSubmit={handleSubmit}>
+            <form className='flex flex-col items-center  bg-slate-300 rounded-3xl shadow-2xl mr-5 mt-10' onSubmit={handleSubmit}>
               <h1 className='text-sm p-5'>Talk to us and we will get back to you in the shortest time possible</h1>
               <label className='text-gray-500' htmlFor="first">First Name</label>
               <input className='p-2 rounded-2xl' type="text" id="first" name="first" required />
@@ -64,7 +64,7 @@ function Contact() {
 
             <div className=" gap-5 lg:flex mt-10  pb-10">
                   <div className='flex-row'>
-                    <div className="shadow-2xl rounded-3xl text-center p-10 flex-1 w-80 bg-slate-300 mt-5">
+                    <div className="shadow-2xl rounded-3xl text-center p-10 flex-1 w-80  bg-slate-300 mt-5">
                       <h3 className="pt-2 pb-2 text-3xl font-bold">Address</h3>
                       <h4 className="text-md font-semi-bold ">Accra, Ghana</h4>
                     </div>
@@ -78,7 +78,7 @@ function Contact() {
                       <h3 className="pt-2 pb-2 text-3xl font-bold">Phone</h3>
                       <h4 className="text-md font-semi-bold ">(+233) 20 000 1111</h4>
                       <h4 className="text-md font-semi-bold ">(+233) 30 111 2222</h4>
-                      <div className='flex p-10'>
+                      <div className='flex p-10 items-center '>
                         <AiFillFacebook className='h-10 w-20'/>
                         <FaFacebookMessenger className='h-10 w-20'/>
                         <AiFillInstagram className='h-10 w-20'/>
