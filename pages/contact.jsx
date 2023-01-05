@@ -60,17 +60,17 @@ function Contact() {
               <button className='bg-orange-500 p-2 m-2 rounded-xl hover:transition hover:scale-95' type="submit">Submit</button>
             </form>
 
-            <div className=" gap-10 lg:flex pt-10 px-10 pb-10">
-                    <div className="shadow-2xl rounded-3xl text-center p-10  flex-1 bg-slate-300 mt-5">
-                      <h3 className="pt-8 pb-2 text-3xl font-bold">Address</h3>
+            <div className="flex-col gap-10 lg:flex pt-10 px-10 pb-10">
+                    <div className="shadow-2xl rounded-3xl text-center p-2  flex-1 bg-slate-300 mt-5">
+                      <h3 className="pt-2 pb-2 text-3xl font-bold">Address</h3>
                       <h4 className="text-md font-semi-bold ">Accra, Ghana</h4>
                     </div>
-                    <div className="shadow-2xl rounded-3xl text-center p-10  flex-1 bg-slate-300 mt-5">
-                      <h3 className="pt-8 pb-2 text-3xl font-bold">Email</h3>
+                    <div className="shadow-2xl rounded-3xl text-center p-2  flex-1 bg-slate-300 mt-5">
+                      <h3 className="pt-2 pb-2 text-3xl font-bold">Email</h3>
                       <a href=""><h4 className="text-md font-semi-bold">infoE&M@gmail.com</h4></a>
                     </div>
-                    <div className="shadow-2xl rounded-3xl text-center p-10  flex-1 bg-slate-300 mt-5 ">
-                      <h3 className="pt-8 pb-2 text-3xl font-bold">Phone</h3>
+                    <div className="shadow-2xl rounded-3xl text-center p-2  flex-1 bg-slate-300 mt-5 ">
+                      <h3 className="pt-2 pb-2 text-3xl font-bold">Phone</h3>
                       <h4 className="text-md font-semi-bold ">(+233) 20 000 1111</h4>
                       <h4 className="text-md font-semi-bold ">(+233) 30 111 2222</h4>
                     </div>
