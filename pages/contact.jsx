@@ -79,14 +79,14 @@ function Contact() {
                       <h4 className="text-md font-semi-bold ">(+233) 20 000 1111</h4>
                       <h4 className="text-md font-semi-bold ">(+233) 30 111 2222</h4>
                       <div className='flex p-10 items-center '>
-                        <AiFillFacebook className='h-10 w-20'/>
-                        <FaFacebookMessenger className='h-10 w-20'/>
-                        <AiFillInstagram className='h-10 w-20'/>
-                        <AiFillTwitterSquare className='h-10 w-20'/>
-                        <AiFillLinkedin className='h-10 w-20'/>
-                        <AiOutlineWhatsApp className='h-10 w-20'/>
-                        <AiFillWechat className='h-10 w-20'/>
-                        <FaTiktok className='h-10 w-20'/>
+                        <AiFillFacebook className='h-10 w-20 hover:translate-y-2.5'/>
+                        <FaFacebookMessenger className='h-10 w-20 hover:translate-y-2.5'/>
+                        <AiFillInstagram className='h-10 w-20 hover:translate-y-2.5'/>
+                        <AiFillTwitterSquare className='h-10 w-20 hover:translate-y-2.5'/>
+                        <AiFillLinkedin className='h-10 w-20 hover:translate-y-2.5'/>
+                        <AiOutlineWhatsApp className='h-10 w-20 hover:translate-y-2.5'/>
+                        <AiFillWechat className='h-10 w-20 hover:translate-y-2.5'/>
+                        <FaTiktok className='h-10 w-20 hover:translate-y-2.5'/>
                       </div>
                       
 
