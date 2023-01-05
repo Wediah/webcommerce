@@ -79,6 +79,14 @@ function Contact() {
                       <h4 className="text-md font-semi-bold ">(+233) 20 000 1111</h4>
                       <h4 className="text-md font-semi-bold ">(+233) 30 111 2222</h4>
                       
+                      <AiFillFacebook/>
+                      <FaFacebookMessenger/>
+                      <AiFillInstagram/>
+                      <AiFillTwitterSquare/>
+                      <AiFillLinkedin/>
+                      <AiOutlineWhatsApp/>
+                      <AiFillWechat/>
+                      <FaTiktok/>
 
                     </div>
                 </div>
