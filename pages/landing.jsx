@@ -45,7 +45,7 @@ function Homepage () {
                         <Popover>
                         <Popover.Button className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white  h-20 cursor-pointer'>Hotels <MdOutlineBed className='text-3xl ml-10'/> </Popover.Button>
 
-                        < Transition
+                        <Transition
                             as={Fragment}
                             enter="transition ease-out duration-200"
                             enterFrom="opacity-0 translate-y-1"
