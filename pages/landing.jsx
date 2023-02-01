@@ -42,16 +42,7 @@ function Homepage () {
                         Vacation anywhere in the world with E&M tours.
                     </h1>
                     <div className='text-white w-screen flex flex-row flex-wrap gap-5 px-20 pb-5 pt-10 justify-center items-center'>
-                        <label htmlFor="my-modal-4" className="btn">open modal</label>
-
-                        {/* Put this part before </body> tag */}
-                        <input type="checkbox" id="my-modal-4" className="modal-toggle" />
-                        <label htmlFor="my-modal-4" className="modal cursor-pointer">
-                        <label className="modal-box relative" htmlFor="">
-                            <h3 className="text-lg font-bold">Congratulations random Internet user!</h3>
-                            <p className="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-                        </label>
-                        </label>
+                        
                         <Popover>
                         <Popover.Button className='p-5 border-solid border-2 border-white hover:border-black rounded-md text-md inline-flex hover:bg-black hover:text-white  h-20 cursor-pointer'>Hotels <MdOutlineBed className='text-3xl ml-10'/> </Popover.Button>
 
