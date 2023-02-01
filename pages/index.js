@@ -9,6 +9,7 @@ import Thirdpage from './third'
 import Contact from './contact'
 import Reviews from './Reviews'
 import Login from '../components/login'
+import Signup from '../components/Signup'
 
 
 
@@ -30,6 +31,7 @@ export default function Home() {
         <Contact/>
         <Thirdpage/>
         <Login/>
+        <Signup/>
       </main>
     </div>
   )
