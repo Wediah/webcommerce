@@ -3,6 +3,7 @@ import Image from 'next/legacy/image';
 import bali from '../public/bali.jpg'
 import {BsApple} from 'react-icons/bs'
 import {FcGoogle} from 'react-icons/fc'
+import { useRouter } from 'next/router'
 
 function Login() {
   return (
