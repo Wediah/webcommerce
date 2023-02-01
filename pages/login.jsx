@@ -10,7 +10,7 @@ function Login() {
   const router = useRouter()
 
   return (
-    <div className='min-h-screen relative flex flex-col justify-center overflow-hidden bg-white py-6 sm:py-12'>
+    <div className='min-h-screen relative flex flex-col justify-center pt-20 lg:pt-28 overflow-hidden bg-white py-6 sm:py-12'>
       <div className='relative mx-auto w-full max-w-md bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:rounded-xl sm:px-10'>
         <div className='basis-1/3 flex-1'>
           <Image src={bali} alt='' className="rounded-xl object-cover absolute " width={'50'} height={'40'} layout="responsive" />
