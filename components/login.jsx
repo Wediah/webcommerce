@@ -4,8 +4,8 @@ import bali from '../public/bali.jpg'
 
 function Login() {
   return (
-    <div className='min-h-screen'>
-      <div className='flex flex-col py-10  lg:flex-row lg:flex-wrap mx-20 bg-white p-10'>
+    <div className='min-h-screen relative flex flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12'>
+      <div className='flex flex-col py-10 shadow-xl ring-1 ring-gray-900/5 rounded-lg lg:flex-row lg:flex-wrap mx-20 bg-white p-10'>
         <div className='basis-1/3 flex-1'>
           <Image src={bali} alt='' className="rounded-xl object-cover absolute " width={'50'} height={'40'} layout="responsive" />
         </div>
