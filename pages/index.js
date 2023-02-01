@@ -8,8 +8,8 @@ import Secondpage from './secondpage'
 import Thirdpage from './third'
 import Contact from './contact'
 import Reviews from './Reviews'
-import Login from '../components/login'
-import Signup from '../components/Signup'
+import Login from './login'
+import Signup from './Signup'
 
 
 

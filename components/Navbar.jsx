@@ -5,8 +5,8 @@ import Image from "next/image";
 import travel from "../public/travel.png"
 import { Popover} from '@headlessui/react'
 import { Fragment } from 'react'
-import login from '../components/login'
-import Login from "../components/login";
+import login from '../pages/login'
+import Login from "../pages/login";
 
 
 

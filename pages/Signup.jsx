@@ -17,8 +17,8 @@ function Signup() {
       </div>
     
       <div className='basis-1/3 flex-1  '>
-        <div className=' font-bold text-2xl text-center text-orange-500 pl-10 pt-10 '>Login</div> 
-        <div className=' text-sm text-center text-gray-400 pl-10'>Welcome back! Please fill in your details.</div>
+        <div className=' font-bold text-2xl text-center text-orange-500 pl-10 pt-10 '>Register</div> 
+        <div className=' text-sm text-center text-gray-400 pl-10'>Welcome to the fam! <br /> Please fill in your details.</div>
         <div className='mt-5'>
           <form action="">
               <div className='relative mt-6'>
