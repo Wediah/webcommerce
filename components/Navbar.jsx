@@ -202,12 +202,13 @@ function Navbar () {
                                 tours
                             </Link>
                             <Link
+                                    href="/reviews"
                                     activeClass="reviews"
                                     to="reviews"
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:underline hover:decoration-orange-400 hover:decoration-4 text-black  px-3 py-2 rounded-md text-md font-medium "
+                                    className="cursor-pointer hover:text-orange-400 text-black block px-3 py-2 rounded-md text-base font-medium text-center"
                                 >
                                     reviews
                                 </Link>
