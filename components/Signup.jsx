@@ -1,5 +1,4 @@
 import React from 'react'
-import React from 'react'
 import Image from 'next/legacy/image';
 import bali from '../public/bali.jpg'
 import {BsApple} from 'react-icons/bs'
