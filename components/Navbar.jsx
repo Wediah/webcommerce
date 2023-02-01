@@ -7,12 +7,15 @@ import { Popover} from '@headlessui/react'
 import { Fragment } from 'react'
 import login from '../pages/login'
 import Login from "../pages/login";
+import { useRouter } from "next/router";
 
 
 
 
 function Navbar () {
     const [isOpen, setIsOpen] = useState(false);
+
+    const router = useRouter()
 
 
 	return (
@@ -108,8 +111,8 @@ function Navbar () {
 
                     <div className=" float-right flex justify-center items-center flex-shrink-0 text-white lg:pr-5">
                             
-                            <button className="text-sm border-solid border-2 border-orange-400 p-2 px-3 py-1 rounded-full text-black font-bold hover:transition hover:scale-105 duration-100">log in</button>
-                            <button className="text-sm border-solid border-2 border-orange-400 p-2 px-3 py-1 rounded-full ml-2 text-black bg-orange-400 font-bold hover:transition hover:scale-105 duration-100">register</button>
+                            <button className="text-sm border-solid border-2 border-orange-400 p-2 px-3 py-1 rounded-full text-black font-bold hover:transition hover:scale-105 duration-100" onClick={() => router.push('/login')}>log in</button>
+                            <button className="text-sm border-solid border-2 border-orange-400 p-2 px-3 py-1 rounded-full ml-2 text-black bg-orange-400 font-bold hover:transition hover:scale-105 duration-100 " onClick={() => router.push('/Signup')}>register</button>
                         </div>
                     <div className="mr-10 flex md:hidden ">
                         <button
