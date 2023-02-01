@@ -6,6 +6,9 @@ import {FcGoogle} from 'react-icons/fc'
 import { useRouter } from 'next/router'
 
 function Login() {
+
+  const router = useRouter()
+  
   return (
     <div className='min-h-screen relative flex flex-col justify-center overflow-hidden bg-white py-6 sm:py-12'>
       <div className='relative mx-auto w-full max-w-md bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:rounded-xl sm:px-10'>
