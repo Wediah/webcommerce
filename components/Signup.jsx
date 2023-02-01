@@ -39,7 +39,7 @@ function Signup() {
               <p className="text-center text-sm text-gray-500">Already having an account? <a href="#!" className="font-semibold text-gray-600 hover:underline focus:text-gray-800 focus:outline-none" onClick={() => router.push('/login')}>log in</a>.</p>
               <p className='text-center text-sm text-gray-500'>or</p>
               <div className='flex gap-5 justify-center mt-2'>
-                  <button className='text-sm flex bg-black h-8 text-white p-2 font-semibold rounded-md cursor-pointer'><FcGoogle className='text-lg align-middle mr-1 '/>Sign in with Google</button>
+                  <button className='text-sm flex bg-black h-8 text-white p-2 font-semibold rounded-md cursor-pointer'><FcGoogle className='text-lg align-middle mr-1 '/>Register with Google</button>
                   <button className='text-sm flex bg-black h-8 text-white p-2 font-semibold rounded-md cursor-pointer'><BsApple className='text-lg align-middle mr-1'/>Continue with Apple</button>
               </div>
           </form>
