@@ -36,7 +36,7 @@ function About() {
                     <p className='ml-2 text-lg font-semibold'>thousand <br /> <span className='text-sm font-thin'>hotels world wide</span> </p>
                 </div>
             </div>
-            <h1 className='text-center  mt-20 text-xl font-bold p-5 '>why do people prefer us?</h1>
+            <h1 className='text-center text-black mt-20 text-xl font-bold p-5 '>why do people prefer us?</h1>
             <div className="flex flex-col py-10 gap-5 lg:flex-row lg:flex-wrap mx-20">
                 <div className='basis-1/3 flex-1'>
                     <ul className='m-5 pt-12' >
