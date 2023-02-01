@@ -32,7 +32,7 @@ function Navbar () {
                                 offset={50}
                                 duration={500}
                             >
-                              <div className="  cursor-pointer -ml-12">
+                              <div className="  cursor-pointer -ml-12" onClick={() => router.push('/')}>
                                 <Image 
                                 src={travel}
                                 width={40}
