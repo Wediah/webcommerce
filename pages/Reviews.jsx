@@ -10,7 +10,7 @@ function Reviews() {
   return (
     <Element id='reviews' name='reviews'>
         <div className=' bg-white px-5 md:px-3'>
-            <h1 className='text-center text-2xl font-bold pt-40'>Recent Activity</h1>
+            <h1 className='text-black px-5 text-2xl font-bold pt-40'>Recent Activity</h1>
             <div className="gap-5 pb-8 pt-20 grid lg:grid-cols-4">
                 <div className='bg-white p-5 rounded-lg shadow-xl text-center mx-5'>
                     <div className='relative w-40 h-40 rounded-full m-auto mb-2 '>
