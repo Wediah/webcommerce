@@ -63,8 +63,8 @@ function Contact() {
                 <button className='bg-orange-500 p-2 m-2 rounded-xl hover:transition hover:scale-95 w-40 text-white' type="submit">Submit</button>
               </form></div>
 
-              <div className=" gap-5 lg:flex mt-10">
-                <div className='flex-row'>
+              <div className=" gap-5 mt-10">
+                
                   <div className="shadow-2xl rounded-3xl text-center p-10 w-80  mt-5">
                     
                     <h4 className="text-md font-semi-bold ">Accra, Ghana</h4>
@@ -72,21 +72,12 @@ function Contact() {
                   <div className="shadow-2xl rounded-3xl text-center p-10 w-80 mt-5">
                     <a href=""><h4 className="text-md font-semi-bold">infoE&M@gmail.com</h4></a>
                   </div>
-                </div>
+                
                   
                   <div className="shadow-2xl rounded-3xl text-center p-10 w-80 mt-5 ">
                     <h4 className="text-md font-semi-bold ">(+233) 20 000 1111</h4>
                     <h4 className="text-md font-semi-bold ">(+233) 30 111 2222</h4>
-                    <div className='flex p-10 items-center '>
-                      <AiFillFacebook className='h-10 w-20 hover:translate-y-2.5'/>
-                      <FaFacebookMessenger className='h-10 w-20 hover:translate-y-2.5'/>
-                      <AiFillInstagram className='h-10 w-20 hover:translate-y-2.5'/>
-                      <AiFillTwitterSquare className='h-10 w-20 hover:translate-y-2.5'/>
-                      <AiFillLinkedin className='h-10 w-20 hover:translate-y-2.5'/>
-                      <AiOutlineWhatsApp className='h-10 w-20 hover:translate-y-2.5'/>
-                      <AiFillWechat className='h-10 w-20 hover:translate-y-2.5'/>
-                      <FaTiktok className='h-10 w-20 hover:translate-y-2.5'/>
-                    </div>
+                    
                   </div>
               </div>
           </div>
