@@ -65,16 +65,16 @@ function Contact() {
 
               <div className=" gap-5 mt-10">
                 
-                  <div className="shadow-2xl rounded-3xl text-center p-10 w-80  mt-5">
+                  <div className=" text-center p-10 w-80  mt-5">
                     
                     <h4 className="text-md font-semi-bold ">Accra, Ghana</h4>
                   </div>
-                  <div className="shadow-2xl rounded-3xl text-center p-10 w-80 mt-5">
+                  <div className=" text-center p-10 w-80 mt-5">
                     <a href=""><h4 className="text-md font-semi-bold">infoE&M@gmail.com</h4></a>
                   </div>
                 
                   
-                  <div className="shadow-2xl rounded-3xl text-center p-10 w-80 mt-5 ">
+                  <div className=" text-center p-10 w-80 mt-5 ">
                     <h4 className="text-md font-semi-bold ">(+233) 20 000 1111</h4>
                     <h4 className="text-md font-semi-bold ">(+233) 30 111 2222</h4>
                     
