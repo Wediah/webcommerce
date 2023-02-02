@@ -8,8 +8,8 @@ import { VscActivateBreakpoints } from 'react-icons/vsc'
 function About() {
   return (
     <Element id='about' name='about'>
-        <div className='min-h-screen bg-white '>
-            <h1 className='text-black px-8 text-3xl font-bold pt-40 '>About Us</h1>
+        <div className='min-h-screen bg-white'>
+            <h1 className='text-black px-8 text-3xl font-bold pt-40'>About Us</h1>
             <div className='flex flex-wrap gap-20 pt-10 flex-row justify-center px-5'>
                 <div className='flex'>
                     <span className='bg-blue-500 rounded-full p-5 font-bold text-xl  '>15</span>

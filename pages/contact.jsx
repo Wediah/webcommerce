@@ -43,10 +43,10 @@ function Contact() {
     }
   return (
     <Element id="contact" name="contact">
-        <div className='min-h-screen bg-white px-10'>
-            <h1 className='text-center text-xl font-bold pt-40 '>Contact Us</h1>
+        <div className='min-h-screen bg-white px-10 pt-40'>
+            <h1 className='text-3xl text-black font-bold'>Contact Us</h1>
             <div className='lg:flex gap-5 pb-5 rounded-lg px-5'>
-              <div><form className='flex flex-col px-5 bg-blue-400 rounded-3xl shadow-2xl mt-10' onSubmit={handleSubmit}>
+              <div><form className='flex flex-col px-5 rounded-3xl shadow-2xl mt-10' onSubmit={handleSubmit}>
                 <h1 className='text-sm p-5 text-gray-500'>Talk to us and we will get back to you in the shortest time possible</h1>
                 <label className='text-gray-500' htmlFor="name">First Name</label>
                 <input className='p-2 w-auto rounded-lg bg-gray-100' type="text" id="first" name="first" required />
@@ -63,18 +63,18 @@ function Contact() {
                 <button className='bg-orange-500 p-2 m-2 rounded-xl hover:transition hover:scale-95 w-40 text-white' type="submit">Submit</button>
               </form></div>
 
-              <div className=" gap-5 mt-10">
+              <div className=" gap-2 mt-10">
                 
-                  <div className=" text-center p-10 w-80  mt-5">
+                  <div className=" text-center ">
                     
                     <h4 className="text-md font-semi-bold ">Accra, Ghana</h4>
                   </div>
-                  <div className=" text-center p-10 w-80 mt-5">
+                  <div className=" text-center">
                     <a href=""><h4 className="text-md font-semi-bold">infoE&M@gmail.com</h4></a>
                   </div>
                 
                   
-                  <div className=" text-center p-10 w-80 mt-5 ">
+                  <div className=" text-center">
                     <h4 className="text-md font-semi-bold ">(+233) 20 000 1111</h4>
                     <h4 className="text-md font-semi-bold ">(+233) 30 111 2222</h4>
                     
