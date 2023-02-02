@@ -65,7 +65,7 @@ function Contact() {
 
               <div className=" gap-5 lg:flex mt-10 justify-center pb-10">
                 <div className='flex-row'>
-                  <div className="shadow-2xl rounded-3xl text-center p-10 w-80  bg-slate-300 mt-5">
+                  <div className="shadow-2xl rounded-3xl text-center p-10 w-80  mt-5">
                     <h3 className="pt-2 pb-2 text-3xl font-bold">Address</h3>
                     <h4 className="text-md font-semi-bold ">Accra, Ghana</h4>
                   </div>
