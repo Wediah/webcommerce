@@ -46,7 +46,7 @@ function Contact() {
         <div className='min-h-screen bg-white px-10 pt-40'>
             <h1 className='text-3xl text-black font-bold'>Contact Us</h1>
             <div className='lg:flex gap-5 pb-5 rounded-lg px-5'>
-              <div><form className='flex flex-col px-5 rounded-3xl shadow-2xl mt-10' onSubmit={handleSubmit}>
+              <div><form className='flex flex-col px-5 mt-10' onSubmit={handleSubmit}>
                 <h1 className='text-sm p-5 text-gray-500'>Talk to us and we will get back to you in the shortest time possible</h1>
                 <label className='text-gray-500' htmlFor="name">First Name</label>
                 <input className='p-2 w-auto rounded-lg bg-gray-100' type="text" id="first" name="first" required />
