@@ -63,7 +63,7 @@ function Contact() {
                 <button className='bg-orange-500 p-2 m-2 rounded-xl hover:transition hover:scale-95 w-40 text-white' type="submit">Submit</button>
               </form></div>
 
-              <div className=" gap-5 lg:flex mt-10 justify-center pb-10">
+              <div className=" gap-5 lg:flex mt-10">
                 <div className='flex-row'>
                   <div className="shadow-2xl rounded-3xl text-center p-10 w-80  mt-5">
                     
