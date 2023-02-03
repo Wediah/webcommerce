@@ -69,13 +69,13 @@ function Contact() {
               <div className="flex-col text-black gap-5">
                 
                 <div className="mt-2">
-                  <h4 className="text-md font-semi-bold flex items-center"><CiLocationOn className='mr-1'/>Accra, Ghana</h4>
+                  <h4 className="text-md font-semi-bold flex items-center"><CiLocationOn className='mr-1 text-lg'/>Accra, Ghana</h4>
                 </div>
                 <div className="mt-2">
-                  <a href=""><h4 className="text-md font-semi-bold flex items-center"><CgMail className='mr-1'/>infoE&M@gmail.com</h4></a>
+                  <a href=""><h4 className="text-md font-semi-bold flex items-center"><CgMail className='mr-1 text-lg'/>infoE&M@gmail.com</h4></a>
                 </div>
                 <div className="mt-2">
-                  <h4 className="text-md font-semi-bold flex items-center "><BsTelephone className='mr-1'/>(+233) 20 000 1111 <br />(+233) 30 111 2222</h4>
+                  <h4 className="text-md font-semi-bold flex items-center "><BsTelephone className='mr-1 text-lg'/>(+233) 20 000 1111 <br />(+233) 30 111 2222</h4>
                 </div>
               </div>
           </div>
