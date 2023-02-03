@@ -54,7 +54,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer text-black hover:underline hover:decoration-orange-400 hover:decoration-4   px-3 py-2 rounded-md text-md font-medium "
+                                    className="cursor-pointer text-black hover:underline hover:decoration-orange-400 hover:decoration-4   px-3 py-2 rounded-md text-md font-medium " onClick={() => router.push('/')}
                                 >
                                     home
                                 </Link>
@@ -64,7 +64,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:underline hover:decoration-orange-400 hover:decoration-4 text-black  px-3 py-2 rounded-md text-md font-medium "
+                                    className="cursor-pointer hover:underline hover:decoration-orange-400 hover:decoration-4 text-black  px-3 py-2 rounded-md text-md font-medium " 
                                 >
                                     tours
                                 </Link>
