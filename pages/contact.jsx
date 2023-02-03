@@ -66,16 +66,16 @@ function Contact() {
                 <button className='bg-orange-500 p-2 m-2 rounded-xl hover:transition hover:scale-95 w-40 text-white' type="submit">Submit</button>
               </form></div>
 
-              <div className="flex-col text-black  gap-5">
+              <div className="flex-col text-black gap-5">
                 
                 <div className="mt-2">
-                  <h4 className="text-md font-semi-bold "><CiLocationOn/>Accra, Ghana</h4>
+                  <h4 className="text-md font-semi-bold flex "><CiLocationOn/>Accra, Ghana</h4>
                 </div>
                 <div className="mt-2">
-                  <a href=""><h4 className="text-md font-semi-bold"><CgMail/>infoE&M@gmail.com</h4></a>
+                  <a href=""><h4 className="text-md font-semi-bold flex"><CgMail/>infoE&M@gmail.com</h4></a>
                 </div>
                 <div className="mt-2">
-                  <h4 className="text-md font-semi-bold "><BsTelephone/>(+233) 20 000 1111 <br />(+233) 30 111 2222</h4>
+                  <h4 className="text-md font-semi-bold flex items-center "><BsTelephone className='mr-1'/>(+233) 20 000 1111 <br />(+233) 30 111 2222</h4>
                 </div>
               </div>
           </div>
