@@ -46,9 +46,9 @@ function Contact() {
     }
   return (
     <Element id="contact" name="contact">
-        <div className='min-h-screen bg-white px-10 pt-40 pb-5'>
-            <h1 className='text-3xl text-black font-bold'>Contact Us</h1>
-            <div className='lg:flex gap-5 pb-5 rounded-lg justify-center items-center mx-80 bg-white shadow-2xl'>
+        <div className='min-h-screen bg-white  pt-40 pb-5'>
+            <h1 className='text-3xl text-black font-bold px-10 bg-orange-500 pb-20 pt-6'>Contact Us</h1>
+            <div className='lg:flex gap-5 pb-5 rounded-lg justify-center items-center mx-80 bg-white shadow-2xl px-10'>
               <div><form className='flex flex-col px-5 mt-10' onSubmit={handleSubmit}>
                 <h1 className='text-md font-bold p-5 text-black'>Get In Touch</h1>
                 <label className='text-gray-500' htmlFor="name">First Name</label>
