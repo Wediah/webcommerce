@@ -5,6 +5,7 @@ import {FaFacebookMessenger, FaTiktok } from 'react-icons/fa'
 import { CiLocationOn } from 'react-icons/ci'
 import {CgMail} from 'react-icons/cg'
 import {BsTelephone} from 'react-icons/bs'
+import {GrContactInfo} from 'react-icons/gr'
  
 function Contact() {
     // Handles the submit event on form submit.
@@ -47,10 +48,10 @@ function Contact() {
   return (
     <Element id="contact" name="contact">
         <div className='min-h-screen bg-white  pt-40 pb-5'>
-            <h1 className='text-3xl text-black font-bold px-10 bg-orange-500 pb-20 pt-6'>Contact Us</h1>
-            <div className='lg:flex gap-5 pb-5 rounded-lg justify-center items-center mx-80 bg-white shadow-2xl px-10'>
+            <h1 className='text-3xl text-white font-bold px-10 bg-orange-500 pb-20 pt-6'>Contact Us</h1>
+            <div className='lg:flex gap-5 pb-5 rounded-lg justify-center items-center lg:mx-80 bg-white shadow-2xl px-10 '>
               <div><form className='flex flex-col px-5 mt-10' onSubmit={handleSubmit}>
-                <h1 className='text-md font-bold p-5 text-black'>Get In Touch</h1>
+                <h1 className='text-md font-bold pb-2 text-black items-center flex'><GrContactInfo className='text-2xl mr-2'/>Get In Touch</h1>
                 <label className='text-gray-500' htmlFor="name">First Name</label>
                 <input className='p-2 w-auto rounded-lg bg-gray-200' type="text" id="first" name="first" required />
 
