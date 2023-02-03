@@ -49,16 +49,16 @@ function Contact() {
               <div><form className='flex flex-col px-5 mt-10' onSubmit={handleSubmit}>
                 <h1 className='text-md font-bold p-5 text-black'>Get In Touch</h1>
                 <label className='text-gray-500' htmlFor="name">First Name</label>
-                <input className='p-2 w-auto rounded-lg bg-gray-100' type="text" id="first" name="first" required />
+                <input className='p-2 w-auto rounded-lg bg-gray-200' type="text" id="first" name="first" required />
 
                 <label className='text-gray-500' htmlFor="name">Last Name</label>
-                <input className='p-2  rounded-lg bg-gray-100' type="text" id="last" name="last" required />
+                <input className='p-2  rounded-lg bg-gray-200' type="text" id="last" name="last" required />
 
                 <label className='text-gray-500' htmlFor="email">Email</label>
-                <input className='p-2  rounded-lg bg-gray-100' type="text" id="email" name="email" required />
+                <input className='p-2  rounded-lg bg-gray-200' type="text" id="email" name="email" required />
 
                 <label className='text-gray-500' htmlFor="message">Message</label>
-                <textarea type="text"  className='p-2 bg-gray-100 rounded-lg h-20 ' required />
+                <textarea type="text"  className='p-2 bg-gray-200 rounded-lg h-20 ' required />
 
                 <button className='bg-orange-500 p-2 m-2 rounded-xl hover:transition hover:scale-95 w-40 text-white' type="submit">Submit</button>
               </form></div>
