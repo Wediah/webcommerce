@@ -47,9 +47,21 @@ function Contact() {
     }
   return (
     <Element id="contact" name="contact">
-        <div className='min-h-screen bg-white  pt-40 pb-5'>
-            <h1 className='text-3xl text-white font-bold px-10 bg-orange-500 pb-20 pt-6'>Contact Us</h1>
-            <div className='lg:flex gap-5 pb-5 rounded-lg justify-center items-center lg:mx-80 bg-white shadow-2xl px-10 '>
+        <div className='min-h-screen bg-white  pt-36 pb-5'>
+            <h1 className='text-3xl text-white font-bold px-10 bg-orange-500 pt-6'>Contact Us
+            <br />
+            <div className='flex gap-1 mt-16 pb-2'>
+              <div><AiFillFacebook className=''/></div>
+              <div><FaFacebookMessenger/></div>
+              <div><AiFillInstagram/></div>
+              <div><AiOutlineWhatsApp/></div>
+              <div><AiFillWechat/></div>
+              <div><AiFillLinkedin/></div>
+              <div><AiFillTwitterSquare/></div>
+              <div><FaTiktok/></div>
+            </div>
+            </h1>
+            <div className='lg:flex gap-5 pb-5 rounded-lg justify-center items-center lg:mx-80 mx-5 bg-white shadow-2xl px-10 lg:-mt-10 -mt-20 '>
               <div><form className='flex flex-col px-5 mt-10' onSubmit={handleSubmit}>
                 <h1 className='text-md font-bold pb-2 text-black items-center flex'><GrContactInfo className='text-2xl mr-2'/>Get In Touch</h1>
                 <label className='text-gray-500' htmlFor="name">First Name</label>
