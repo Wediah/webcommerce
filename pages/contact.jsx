@@ -51,12 +51,9 @@ function Contact() {
         <div className='min-h-screen bg-white  pt-36 pb-5'>
             <h1 className='text-3xl text-white font-bold px-10 bg-orange-500 pt-6'>Contact Us
             <br />
-            <div className='sm:hidden lg:flex flex gap-1 mt-16 pb-2'>
+            <div className='sm:hidden lg:flex flex gap-5 mt-16 pb-2'>
               <div><AiFillFacebook className=''/></div>
-              <div><FaFacebookMessenger/></div>
               <div><AiFillInstagram/></div>
-              <div><AiOutlineWhatsApp/></div>
-              <div><AiFillWechat/></div>
               <div><AiFillLinkedin/></div>
               <div><AiFillTwitterSquare/></div>
               <div><FaTiktok/></div>
