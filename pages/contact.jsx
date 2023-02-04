@@ -76,7 +76,7 @@ function Contact() {
                 <label className='text-gray-500' htmlFor="message">Message</label>
                 <textarea type="text"  className='p-2 bg-gray-200 rounded-lg h-20 ' required />
 
-                <button className='bg-orange-500 p-2 m-2 rounded-xl hover:transition hover:scale-95 w-40 text-white' type="submit">Submit</button>
+                <button className='bg-orange-500 p-2 m-2 rounded-sm  w-40 text-white' type="submit">Submit</button>
               </form></div>
 
               <div className="flex-col text-black gap-5">
