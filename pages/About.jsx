@@ -13,7 +13,7 @@ function About() {
             <div className='flex flex-wrap gap-20 pt-10 flex-row justify-center px-5'>
                 <div className='flex items-center'>
                     <span className='bg-blue-500 rounded-full p-5 font-bold text-xl  '>15</span>
-                    <p className='ml-2 text-lg font-semibold'> years old <br /> <span className='text-sm font-thin'>in the tourism business</span></p>
+                    <p className='ml-2 text-lg font-semibold'> years old <br /> <span className='text-sm font-thin'>in the tourism <br /> business</span></p>
                 </div>
                 <div className='flex items-center'>
                     <span className='bg-blue-500 rounded-full p-5 font-bold text-xl'>1M+</span>
@@ -21,7 +21,7 @@ function About() {
                 </div>
                 <div className='flex items-center'>
                 <span className='bg-blue-500 rounded-full p-5 font-bold text-xl'>506</span>
-                    <p className='ml-2 text-lg font-semibold'>offices <br /> <span className='text-sm font-thin' > in 100 countries</span> </p>
+                    <p className='ml-2 text-lg font-semibold'>offices <br /> <span className='text-sm font-thin' > in over 100 <br /> countries</span> </p>
                 </div>
                 <div className='flex items-center'>
                     <span className='bg-blue-500 rounded-full p-5 font-bold text-xl'>132</span>
@@ -29,11 +29,11 @@ function About() {
                 </div>
                 <div className='flex items-center'>
                     <span className='bg-blue-500 rounded-full p-5 font-bold text-xl'>98%</span>
-                    <p className='ml-2 text-lg font-semibold'>satisfied <br /> <span className='text-sm font-thin' >tourists world wide</span></p>
+                    <p className='ml-2 text-lg font-semibold'>satisfied <br /> <span className='text-sm font-thin' >tourists <br /> world wide</span></p>
                 </div>
                 <div className='flex  items-center'>
                     <span className='bg-blue-500 rounded-full p-5 font-bold text-xl'>62</span>
-                    <p className='ml-2 text-lg font-semibold'>thousand <br /> <span className='text-sm font-thin'>hotels world wide</span> </p>
+                    <p className='ml-2 text-lg font-semibold'>thousand <br /> <span className='text-sm font-thin'>hotels <br /> world wide</span> </p>
                 </div>
             </div>
             <h1 className='text-center text-black mt-20 text-xl font-bold p-5 '>why do people prefer us?</h1>
