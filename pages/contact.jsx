@@ -6,6 +6,7 @@ import { CiLocationOn } from 'react-icons/ci'
 import {CgMail} from 'react-icons/cg'
 import {BsTelephone} from 'react-icons/bs'
 import {GrContactInfo} from 'react-icons/gr'
+import {FiArrowRight} from 'react-icons/fi'
  
 function Contact() {
     // Handles the submit event on form submit.
