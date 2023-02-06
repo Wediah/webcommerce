@@ -11,7 +11,7 @@ function Reviews() {
     <Element id='reviews' name='reviews'>
         <div className=' bg-white px-5 md:px-3'>
             <h1 className='text-black px-5 text-3xl font-bold pt-40'>Recent Activity</h1>
-            <div className="gap-5 pb-8 pt-20 grid lg:grid-cols-4">
+            <div className="gap-3 pb-8 pt-20 grid lg:grid-cols-4">
                 <div className='bg-white p-5 rounded-lg shadow-xl text-center mx-5'>
                     <div className='relative w-40 h-40 rounded-full m-auto mb-2 '>
                         <Image  alt="" src={Accra} className="block object-cover rounded-full relative" width={"100"}  height={'100'} layout="responsive" />
