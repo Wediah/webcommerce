@@ -54,7 +54,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer text-black hover:underline decoration-orange-400 decoration-2   px-3 py-2 rounded-md text-md font-medium underline-offset-4 " onClick={() => router.push('/')}
+                                    className="cursor-pointer text-black hover:underline decoration-orange-400 decoration-2   px-3 py-2 text-md font-medium underline-offset-4 " onClick={() => router.push('/')}
                                 >
                                     home
                                 </Link>
@@ -64,7 +64,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:underline decoration-orange-400 decoration-2 text-black  px-3 py-2 rounded-md text-md font-medium underline-offset-4" 
+                                    className="cursor-pointer hover:underline decoration-orange-400 decoration-2 text-black  px-3 py-2 text-md font-medium underline-offset-4" 
                                 >
                                     tours
                                 </Link>
@@ -74,7 +74,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:underline decoration-orange-400 decoration-2 text-black  px-3 py-2 rounded-md text-md font-medium underline-offset-4"
+                                    className="cursor-pointer hover:underline decoration-orange-400 decoration-2 text-black  px-3 py-2 text-md font-medium underline-offset-4"
                                 >
                                     reviews
                                 </Link>
@@ -84,7 +84,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:underline decoration-orange-400 decoration-2 text-black  px-3 py-2 rounded-md text-md font-medium underline-offset-4"
+                                    className="cursor-pointer hover:underline decoration-orange-400 decoration-2 text-black  px-3 py-2 text-md font-medium underline-offset-4"
                                 >
                                     about us
                                 </Link>
@@ -94,7 +94,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer  text-black hover:underline decoration-orange-400 decoration-2 px-3 py-2 rounded-md text-md font-medium underline-offset-4"
+                                    className="cursor-pointer  text-black hover:underline decoration-orange-400 decoration-2 px-3 py-2 text-md font-medium underline-offset-4"
                                 >
                                     contact us
                                 </Link>
