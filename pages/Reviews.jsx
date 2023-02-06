@@ -15,7 +15,7 @@ function Reviews() {
                 <div className='bg-white p-5 rounded-lg shadow-xl text-center mx-5'>
                     <div className='relative w-40 h-40 rounded-full m-auto mb-2 '>
                         <Image  alt="" src={Accra} className="block object-cover rounded-full relative" width={"100"}  height={'100'} layout="responsive" />
-                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-orange-600 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
+                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full shadow-xl bg-orange-600 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
                     </div>
                     <p className='font-bold text-center text-lg'>Emma W.</p>
                     <p className='text-black text-md  '>Using E&M to plan my holiday was supper nice. <br /> Great customer service </p>
@@ -24,7 +24,7 @@ function Reviews() {
                 <div className='bg-white p-5 rounded-lg shadow-xl text-center mx-5'>
                     <div className='relative w-40 h-40 rounded-full m-auto mb-2 '>
                         <Image  alt="" src={Accra} className="block object-cover rounded-full relative" width={"100"}  height={'100'} layout="responsive" />
-                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-blue-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
+                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-orange-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
                     </div>
                     <p className='font-bold text-center text-lg'>Emma W.</p>
                     <p className='text-black text-md '>Using E&M to plan my holiday was supper nice. <br /> Great customer service </p>
@@ -32,7 +32,7 @@ function Reviews() {
                 <div className='bg-white p-5 rounded-lg shadow-xl text-center mx-5'>
                     <div className='relative w-40 h-40 rounded-full m-auto mb-2 '>
                         <Image  alt="" src={Accra} className="block object-cover rounded-full relative" width={"100"}  height={'100'} layout="responsive" />
-                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-blue-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
+                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-orange-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
                     </div>
                     <p className='font-bold text-center text-lg'>Emma W.</p>
                     <p className='text-black text-md '>Using E&M to plan my holiday was supper nice. <br /> Great customer service </p>
@@ -40,7 +40,7 @@ function Reviews() {
                 <div className='bg-white p-5 rounded-lg shadow-xl text-center mx-5'>
                     <div className='relative w-40 h-40 rounded-full m-auto mb-2 '>
                         <Image  alt="" src={Accra} className="block object-cover rounded-full relative" width={"100"}  height={'100'} layout="responsive" />
-                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-blue-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
+                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-orange-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
                     </div>
                     <p className='font-bold text-center text-lg'>Emma W.</p>
                     <p className='text-black text-md '>Using E&M to plan my holiday was supper nice. <br /> Great customer service </p>
@@ -48,7 +48,7 @@ function Reviews() {
                 <div className='bg-white p-5 rounded-lg shadow-xl text-center mx-5'>
                     <div className='relative w-40 h-40 rounded-full m-auto mb-2 '>
                         <Image  alt="" src={Accra} className="block object-cover rounded-full relative" width={"100"}  height={'100'} layout="responsive" />
-                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-blue-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
+                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-orange-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
                     </div>
                     <p className='font-bold text-center text-lg'>Emma W.</p>
                     <p className='text-black text-md '>Using E&M to plan my holiday was supper nice. <br /> Great customer service </p>
@@ -56,7 +56,7 @@ function Reviews() {
                 <div className='bg-white p-5 rounded-lg shadow-xl text-center mx-5'>
                     <div className='relative w-40 h-40 rounded-full m-auto mb-2 '>
                         <Image  alt="" src={Accra} className="block object-cover rounded-full relative" width={"100"}  height={'100'} layout="responsive" />
-                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-blue-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
+                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-orange-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
                     </div>
                     <p className='font-bold text-center text-lg'>Emma W.</p>
                     <p className='text-black text-md '>Using E&M to plan my holiday was supper nice. <br /> Great customer service </p>
@@ -64,7 +64,7 @@ function Reviews() {
                 <div className='bg-white p-5 rounded-lg shadow-xl text-center mx-5'>
                     <div className='relative w-40 h-40 rounded-full m-auto mb-2 '>
                         <Image  alt="" src={Accra} className="block object-cover rounded-full relative" width={"100"}  height={'100'} layout="responsive" />
-                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-blue-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
+                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-orange-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
                     </div>
                     <p className='font-bold text-center text-lg'>Emma W.</p>
                     <p className='text-black text-md '>Using E&M to plan my holiday was supper nice. <br /> Great customer service </p>
@@ -72,7 +72,7 @@ function Reviews() {
                 <div className='bg-white p-5 rounded-lg shadow-xl text-center mx-5'>
                     <div className='relative w-40 h-40 rounded-full m-auto mb-2 '>
                         <Image  alt="" src={Accra} className="block object-cover rounded-full relative" width={"100"}  height={'100'} layout="responsive" />
-                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-blue-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
+                        <span className="absolute top-0 right-0 w-10 h-10 grid place-items-center  rounded-full bg-orange-500 m-2  text-white translate-x-5"><FaQuoteRight /> </span>
                     </div>
                     <p className='font-bold text-center text-lg'>Emma W.</p>
                     <p className='text-black text-md '>Using E&M to plan my holiday was supper nice. <br /> Great customer service </p>
