@@ -151,7 +151,7 @@ function Secondpage() {
         <Carousel 
         additionalTransfrom={0}
         arrows
-        autoPlay
+        autoPlay={false}
         autoPlaySpeed={1000}
         centerMode={false}
         className="pb-20 pt-5"
