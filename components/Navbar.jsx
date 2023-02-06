@@ -64,7 +64,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:underline hover:decoration-orange-400 hover:decoration-2 text-black  px-3 py-2 rounded-md text-md font-medium " 
+                                    className="cursor-pointer hover:underline hover:decoration-orange-400 hover:decoration-2 text-black  px-3 py-2 rounded-md text-md font-medium underline-offset-4" 
                                 >
                                     tours
                                 </Link>
@@ -74,7 +74,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:underline hover:decoration-orange-400 hover:decoration-2 text-black  px-3 py-2 rounded-md text-md font-medium "
+                                    className="cursor-pointer hover:underline hover:decoration-orange-400 hover:decoration-2 text-black  px-3 py-2 rounded-md text-md font-medium underline-offset-4"
                                 >
                                     reviews
                                 </Link>
@@ -84,7 +84,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:underline hover:decoration-orange-400 hover:decoration-2 text-black  px-3 py-2 rounded-md text-md font-medium "
+                                    className="cursor-pointer hover:underline hover:decoration-orange-400 hover:decoration-2 text-black  px-3 py-2 rounded-md text-md font-medium underline-offset-4"
                                 >
                                     about us
                                 </Link>
@@ -94,7 +94,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer  text-black hover:underline hover:decoration-orange-400 hover:decoration-2 px-3 py-2 rounded-md text-md font-medium "
+                                    className="cursor-pointer  text-black hover:underline hover:decoration-orange-400 hover:decoration-2 px-3 py-2 rounded-md text-md font-medium underline-offset-4"
                                 >
                                     contact us
                                 </Link>
