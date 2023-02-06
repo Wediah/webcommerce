@@ -3,7 +3,7 @@ import { Element } from 'react-scroll'
 import Image from 'next/legacy/image'
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
 import Accra from '../public/Accra.jpg'
-import Carousel from 'react-multi-carousel';
+
 
 function Reviews() {
 
