@@ -52,11 +52,11 @@ function Contact() {
             <h1 className='text-3xl text-white font-bold px-10 bg-orange-500 pt-6'>Contact Us
             <br />
             <div className='sm:hidden lg:flex flex gap-5 mt-16 pb-2'>
-              <div><AiFillFacebook className=''/></div>
-              <div><AiFillInstagram/></div>
-              <div><AiFillLinkedin/></div>
-              <div><AiFillTwitterSquare/></div>
-              <div><FaTiktok/></div>
+              <div><AiFillFacebook className='cursor-pointer'/></div>
+              <div><AiFillInstagram className='cursor-pointer'/></div>
+              <div><AiFillLinkedin className='cursor-pointer'/></div>
+              <div><AiFillTwitterSquare className='cursor-pointer'/></div>
+              <div><FaTiktok className='cursor-pointer'/></div>
             </div>
             </h1>
             <div className='lg:flex gap-5 pb-5 rounded-lg justify-center items-center lg:mx-80 mx-5 bg-white shadow-2xl px-10 lg:-mt-10 -mt-20 '>
