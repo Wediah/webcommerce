@@ -79,7 +79,7 @@ function Thirdpage() {
         </div>
 
         <h1 className="pt-10 text-center pb-5">Copyright ©2020-2026 E&M </h1> 
-        <h1>built by Emmanuel Wediah</h1>
+        <h1 className="pt-10 text-center pb-5">built by Emmanuel Wediah</h1>
     </div>
   )
 }
