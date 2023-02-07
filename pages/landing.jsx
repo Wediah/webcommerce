@@ -23,7 +23,7 @@ function Homepage () {
 
     return (
         <Element id="home" name="home">
-            <div className='pb-32'>
+            <div className='pb-40'>
                 <>
                     <div style={{
                         zIndex: -1,
