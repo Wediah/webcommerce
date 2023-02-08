@@ -8,7 +8,7 @@ function Thirdpage() {
         <div className='flex gap-20 px-20 pt-32 flex-row flex-wrap justify-center'>
             <div>
                 <h1 className='text-black font-bold text-xl'>About Us</h1>
-                <p className='cursor-pointer'>About E&M</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>About E&M</p>
                 <p className='cursor-pointer'>Careers</p>
                 <p className='cursor-pointer'>Press</p>
                 <p className='cursor-pointer'>Investor Relations</p>
