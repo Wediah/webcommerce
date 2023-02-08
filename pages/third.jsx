@@ -9,40 +9,40 @@ function Thirdpage() {
             <div>
                 <h1 className='text-black font-bold text-xl'>About Us</h1>
                 <p className='cursor-pointer hover:underline underline-offset-2'>About E&M</p>
-                <p className='cursor-pointer'>Careers</p>
-                <p className='cursor-pointer'>Press</p>
-                <p className='cursor-pointer'>Investor Relations</p>
-                <p className='cursor-pointer'>Trust & Safety</p>
-                <p className='cursor-pointer'>Content Guidelines</p>
-                <p className='cursor-pointer'>Accessibility Statement</p>
-                <p className='cursor-pointer'>Terms of Service</p>
-                <p className='cursor-pointer'>Privacy Policy</p>
-                <p className='cursor-pointer'>Ad Choices</p>
-                <p className='cursor-pointer'>Your Privacy Choices</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Careers</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Press</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Investor Relations</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Trust & Safety</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Content Guidelines</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Accessibility Statement</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Terms of Service</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Privacy Policy</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Ad Choices</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Your Privacy Choices</p>
             </div>
             <div>
                 <h1 className='text-black font-bold text-xl'>Discover</h1>
-               <p className='cursor-pointer'>E&M Project Cost Guides</p>
-               <p className='cursor-pointer'>Collections</p>
-               <p className='cursor-pointer'>Talk</p>
-               <p className='cursor-pointer'>Events</p>
-               <p className='cursor-pointer'>E&M Blogs</p>
-               <p className='cursor-pointer'>Support</p>
-               <p className='cursor-pointer'>E&M Mobile</p>
-               <p className='cursor-pointer'>Developers</p>
-               <p className='cursor-pointer'>RSS</p> 
+               <p className='cursor-pointer hover:underline underline-offset-2'>E&M Project Cost Guides</p>
+               <p className='cursor-pointer hover:underline underline-offset-2'>Collections</p>
+               <p className='cursor-pointer hover:underline underline-offset-2'>Talk</p>
+               <p className='cursor-pointer hover:underline underline-offset-2'>Events</p>
+               <p className='cursor-pointer hover:underline underline-offset-2'>E&M Blogs</p>
+               <p className='cursor-pointer hover:underline underline-offset-2'>Support</p>
+               <p className='cursor-pointer hover:underline underline-offset-2'>E&M Mobile</p>
+               <p className='cursor-pointer hover:underline underline-offset-2'>Developers</p>
+               <p className='cursor-pointer hover:underline underline-offset-2'>RSS</p> 
             </div>
             <div>
                 <h1 className='text-black font-bold text-xl'>E&M for Business</h1>
-                <p className='cursor-pointer'>E&M for Business</p>
-                <p className='cursor-pointer'>Business Owner Login</p>
-                <p className='cursor-pointer'>Claim your Business Page</p>
-                <p className='cursor-pointer'>Advertise on E&M</p>
-                <p className='cursor-pointer'>E&M for Restaurant Owners</p>
-                <p className='cursor-pointer'>Table Management</p>
-                <p className='cursor-pointer'>Business Success Stories</p>
-                <p className='cursor-pointer'>Business Support</p>
-                <p className='cursor-pointer'>E&M Blog for Business</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>E&M for Business</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Business Owner Login</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Claim your Business Page</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Advertise on E&M</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>E&M for Restaurant Owners</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Table Management</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Business Success Stories</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>Business Support</p>
+                <p className='cursor-pointer hover:underline underline-offset-2'>E&M Blog for Business</p>
             </div>
             <div>
                 <h1 className='text-black font-bold text-xl'>Language</h1>
