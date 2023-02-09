@@ -15,7 +15,6 @@
     "@mui/material": "^5.11.0",
     "@mui/styled-engine-sc": "^5.11.0",
     "axios": "^1.2.1",
-    "daisyui": "^2.49.0",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
     "framer-motion": "^7.9.0",
