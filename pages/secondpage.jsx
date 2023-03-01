@@ -91,7 +91,7 @@ function Secondpage() {
         responsive={Responsive}
         removeArrowOnDeviceType={[ "mobile"]}
         >
-          <div  className=' bg-orange-500 rounded-lg mx-2 transition hover:-translate-y-4'>
+          <div  className=' bg-orange-500 rounded-lg mx-2 transition hover:-translate-y-6 hover:scale-105 '>
             <Image  alt="" src={Accra} className="rounded-lg object-cover " width={"100"}  height={'100'} layout="responsive" />
             
             <p className="font-medium text-sm bg-transparent text-center">Accra, Ghana</p>
